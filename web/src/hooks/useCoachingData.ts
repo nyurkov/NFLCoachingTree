@@ -13,7 +13,8 @@ export function useCoachingData(): ProcessedData | null {
 
     async function load() {
       try {
-        const resp = await fetch("/data/coaching_connections.json");
+        const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+        const resp = await fetch(`${basePath}/data/coaching_connections.json`);
         const raw: RawData = await resp.json();
         const processed = processData(raw);
 
