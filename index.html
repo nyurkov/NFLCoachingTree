@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL Coaching Tree</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="header-inner">
+                <div class="header-text">
+                    <h1>NFL Coaching Tree</h1>
+                    <p class="subtitle">Mapping the mentorship lineage of every current head coach</p>
+                </div>
+                <div id="controls">
+                    <div class="search-wrapper">
+                        <input type="text" id="coach-search" placeholder="Search coaches..." autocomplete="off">
+                        <ul id="search-results" class="hidden"></ul>
+                    </div>
+                    <button id="reset-zoom">Reset View</button>
+                </div>
+            </div>
+        </header>
+
+        <div id="main-container">
+            <div id="graph-container">
+                <svg id="graph"></svg>
+            </div>
+
+            <div id="sidebar">
+                <div id="sidebar-content">
+                    <div id="placeholder">
+                        <h3>Coach Details</h3>
+                        <p>Click on a coach to view their details and connections.</p>
+                        <p class="hint">Hover over nodes to highlight full coaching lineages.</p>
+                    </div>
+                    <div id="coach-details" class="hidden">
+                        <button id="sidebar-close">&times;</button>
+                        <h3 id="detail-name"></h3>
+                        <div id="detail-team" class="detail-badge"></div>
+                        <div id="detail-role"></div>
+                        <a id="detail-wiki" href="#" target="_blank" rel="noopener"></a>
+                        <div class="detail-section">
+                            <h4>Connections</h4>
+                            <ul id="detail-connections"></ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="stats-bar">
+                    <span id="stat-info"></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="tooltip" class="hidden"></div>
+    </div>
+
+    <script src="js/tree.js"></script>
+</body>
+</html>

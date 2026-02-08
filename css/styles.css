@@ -1,0 +1,620 @@
+/* ═══════════════════════════════════════════════
+   NFL Coaching Tree — Styles
+   Dark theme, layered DAG visualization
+   ═══════════════════════════════════════════════ */
+
+:root {
+    --bg: #0a0e17;
+    --bg-surface: #111827;
+    --bg-card: #161d2e;
+    --bg-card-hover: #1e2740;
+    --border: #1e2737;
+    --border-light: #2a3548;
+    --text: #e2e8f0;
+    --text-secondary: #94a3b8;
+    --text-dim: #64748b;
+    --accent: #3b82f6;
+    --accent-light: #60a5fa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    overflow: hidden;
+    height: 100vh;
+}
+
+/* ─── Layout ─── */
+
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    padding: 0 28px;
+    background: linear-gradient(180deg, #111827 0%, #0f1523 100%);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0;
+}
+
+.header-text h1 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -0.02em;
+}
+
+.header-text .subtitle {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-top: 2px;
+    letter-spacing: 0.01em;
+}
+
+/* ─── Controls ─── */
+
+#controls {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.control-toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    cursor: pointer;
+    user-select: none;
+}
+
+.control-toggle input[type="checkbox"] {
+    accent-color: var(--accent);
+}
+
+#controls button {
+    padding: 6px 16px;
+    background: #1a2234;
+    border: 1px solid var(--border-light);
+    color: #d1d5db;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+#controls button:hover {
+    background: var(--border-light);
+    border-color: #3b4a63;
+}
+
+/* ─── Search ─── */
+
+.search-wrapper {
+    position: relative;
+}
+
+#coach-search {
+    padding: 6px 12px;
+    background: #1a2234;
+    border: 1px solid var(--border-light);
+    color: var(--text);
+    border-radius: 6px;
+    font-size: 0.8rem;
+    width: 200px;
+    outline: none;
+    transition: border-color 0.15s, width 0.2s;
+}
+
+#coach-search:focus {
+    border-color: var(--accent);
+    width: 240px;
+}
+
+#coach-search::placeholder {
+    color: var(--text-dim);
+}
+
+#search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 4px;
+    background: rgba(14, 20, 33, 0.97);
+    border: 1px solid var(--border-light);
+    border-radius: 6px;
+    list-style: none;
+    padding: 4px 0;
+    max-height: 320px;
+    overflow-y: auto;
+    z-index: 200;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    min-width: 240px;
+}
+
+#search-results li {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+    color: var(--text);
+    cursor: pointer;
+    transition: background 0.1s;
+}
+
+#search-results li:hover,
+#search-results li.active {
+    background: rgba(59, 130, 246, 0.15);
+}
+
+#search-results li .search-team {
+    display: block;
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    margin-top: 1px;
+}
+
+/* ─── Main Container ─── */
+
+#main-container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+#graph-container {
+    flex: 1;
+    position: relative;
+    background: var(--bg);
+}
+
+#graph {
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+}
+
+#graph:active {
+    cursor: grabbing;
+}
+
+/* ─── Sidebar ─── */
+
+#sidebar {
+    width: 320px;
+    background: var(--bg-surface);
+    border-left: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+#sidebar-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+#placeholder h3 {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#placeholder p {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+
+#placeholder .hint {
+    color: #4b5e7a;
+    font-size: 0.78rem;
+}
+
+/* Coach Details */
+
+#coach-details {
+    position: relative;
+}
+
+#sidebar-close {
+    position: absolute;
+    top: -2px;
+    right: -4px;
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: color 0.15s, background 0.15s;
+}
+
+#sidebar-close:hover {
+    color: var(--text);
+    background: rgba(255, 255, 255, 0.06);
+}
+
+#detail-name {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+    padding-right: 24px;
+}
+
+.detail-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: rgba(255, 255, 255, 0.06);
+    border-left: 3px solid var(--accent);
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+}
+
+#detail-role {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-bottom: 8px;
+}
+
+#detail-wiki {
+    display: inline-block;
+    font-size: 0.75rem;
+    color: var(--accent-light);
+    text-decoration: none;
+    margin-bottom: 16px;
+    opacity: 0.8;
+    transition: opacity 0.15s;
+}
+
+#detail-wiki:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.detail-section h4 {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+}
+
+#detail-connections {
+    list-style: none;
+    padding: 0;
+}
+
+#detail-connections li {
+    font-size: 0.8rem;
+    padding: 8px 10px;
+    margin-bottom: 4px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 6px;
+    border-left: 3px solid var(--border-light);
+    transition: background 0.15s, border-color 0.15s;
+}
+
+#detail-connections li[style*="cursor: pointer"]:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-left-color: var(--accent);
+}
+
+#detail-connections li.in-path {
+    background: rgba(245, 158, 11, 0.1);
+    border-left-color: #f59e0b;
+}
+
+#detail-connections li.in-path .conn-name {
+    color: #f59e0b;
+}
+
+#detail-connections .conn-dir {
+    display: block;
+    font-size: 0.68rem;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 2px;
+}
+
+#detail-connections .conn-name {
+    font-weight: 600;
+    color: var(--text);
+}
+
+#detail-connections .conn-years {
+    color: var(--text-dim);
+    font-size: 0.75rem;
+    margin-left: 6px;
+}
+
+/* Stats bar */
+
+#stats-bar {
+    padding: 10px 20px;
+    border-top: 1px solid var(--border);
+    font-size: 0.72rem;
+    color: var(--text-dim);
+    letter-spacing: 0.02em;
+}
+
+/* ─── Tooltip ─── */
+
+.hidden {
+    display: none !important;
+}
+
+#tooltip {
+    position: fixed;
+    padding: 10px 14px;
+    background: rgba(14, 20, 33, 0.95);
+    border: 1px solid var(--border-light);
+    border-radius: 8px;
+    font-size: 0.78rem;
+    color: var(--text);
+    pointer-events: none;
+    z-index: 100;
+    max-width: 320px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+#tooltip .tip-title {
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+#tooltip .tip-detail {
+    color: var(--text-secondary);
+    font-size: 0.72rem;
+    line-height: 1.4;
+}
+
+/* ═══════════════════════════════════════════════
+   SVG Styles
+   ═══════════════════════════════════════════════ */
+
+/* Layer Bands */
+
+.layer-band {
+    fill: transparent;
+}
+
+.layer-band.even {
+    fill: rgba(255, 255, 255, 0.018);
+}
+
+.layer-band.odd {
+    fill: rgba(255, 255, 255, 0.006);
+}
+
+.layer-label {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    fill: rgba(255, 255, 255, 0.10);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+/* Edges */
+
+.edge-path {
+    fill: none;
+    stroke: #334155;
+    stroke-width: 1.5px;
+    opacity: 0.30;
+    transition: opacity 0.3s ease, stroke 0.3s ease, stroke-width 0.3s ease;
+}
+
+.edge-path.highlighted {
+    stroke: var(--accent-light);
+    stroke-width: 2px;
+    opacity: 0.75;
+}
+
+.edge-path.dimmed {
+    opacity: 0.0;
+    transition: opacity 0.3s ease;
+}
+
+.edge-path.click-path {
+    stroke: #f59e0b;
+    stroke-width: 3px;
+    opacity: 0.9;
+}
+
+.edge-path.edge-hover {
+    stroke: #93c5fd;
+    stroke-width: 2.5px;
+    opacity: 0.85;
+}
+
+.edge-overlay {
+    fill: none;
+    stroke: transparent;
+    stroke-width: 14px;
+    cursor: pointer;
+}
+
+/* Nodes */
+
+.node-card {
+    fill: var(--bg-card);
+    stroke: var(--border-light);
+    stroke-width: 1px;
+    filter: url(#card-shadow);
+    cursor: pointer;
+    transition: fill 0.2s ease, stroke 0.2s ease;
+}
+
+.node-group:hover .node-card {
+    fill: var(--bg-card-hover);
+    stroke: #3b4f6e;
+}
+
+.node-group.hc .node-card {
+    fill: #171f30;
+}
+
+.node-group.hc:hover .node-card {
+    fill: #1e2840;
+}
+
+/* Highlighted / Dimmed */
+
+.node-group.highlighted .node-card {
+    stroke: var(--accent-light);
+    stroke-width: 1.5px;
+    filter: url(#glow);
+}
+
+.node-group.dimmed {
+    opacity: 0.0;
+    transition: opacity 0.3s ease;
+}
+
+.node-group:not(.dimmed) {
+    transition: opacity 0.3s ease;
+}
+
+/* Node Text */
+
+.node-name {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 10.5px;
+    font-weight: 600;
+    fill: var(--text);
+    pointer-events: none;
+}
+
+.node-subtitle {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 8.5px;
+    font-weight: 400;
+    fill: var(--text-secondary);
+    pointer-events: none;
+}
+
+.node-accent {
+    pointer-events: none;
+}
+
+/* ═══════════════════════════════════════════════
+   Mobile — ≤768px
+   ═══════════════════════════════════════════════ */
+
+@media (max-width: 768px) {
+    /* Header stacks vertically */
+    .header-inner {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+        padding: 10px 0;
+    }
+
+    .header-text h1 {
+        font-size: 1.1rem;
+    }
+
+    .header-text .subtitle {
+        font-size: 0.72rem;
+    }
+
+    header {
+        padding: 0 16px;
+    }
+
+    #controls {
+        gap: 10px;
+    }
+
+    /* Search goes full-width */
+    .search-wrapper {
+        flex: 1;
+    }
+
+    #coach-search,
+    #coach-search:focus {
+        width: 100%;
+    }
+
+    #search-results {
+        max-height: 50vh;
+    }
+
+    /* Sidebar becomes a slide-up bottom sheet */
+    #main-container {
+        position: relative;
+    }
+
+    #sidebar {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        max-height: 55vh;
+        border-left: none;
+        border-top: 1px solid var(--border);
+        border-radius: 14px 14px 0 0;
+        box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.5);
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+        z-index: 50;
+    }
+
+    #sidebar.open {
+        transform: translateY(0);
+    }
+
+    #sidebar::before {
+        content: "";
+        display: block;
+        width: 36px;
+        height: 4px;
+        background: var(--border-light);
+        border-radius: 2px;
+        margin: 10px auto 0;
+    }
+
+    #placeholder {
+        display: none !important;
+    }
+
+    #sidebar-content {
+        padding: 12px 16px;
+    }
+
+    /* Tooltip clamped to viewport */
+    #tooltip {
+        max-width: calc(100vw - 32px);
+    }
+}
