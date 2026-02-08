@@ -40,7 +40,7 @@ export default function Home() {
       if (!target) return;
       setClickPath((prev) => [...prev, coachId]);
       setSelectedCoach(target);
-      graphRef.current?.zoomToNode(coachId);
+      graphRef.current?.zoomToNode(coachId, true);
     },
     [data]
   );

@@ -21,7 +21,8 @@ import {
 import { buildEdgePath, ordinal, getDeepestPath, getPathEdges } from "@/lib/graph";
 
 export interface GraphHandle {
-  zoomToNode: (id: string) => void;
+  /** @param sidebarOpen - when true on mobile, offsets node above bottom sheet */
+  zoomToNode: (id: string, sidebarOpen?: boolean) => void;
   zoomToFit: (duration?: number) => void;
 }
 
@@ -85,15 +86,15 @@ const CoachingTreeGraph = forwardRef<GraphHandle, Props>(function CoachingTreeGr
 
   // ── Imperative handle for parent ──
   useImperativeHandle(ref, () => ({
-    zoomToNode: (id: string) => {
+    zoomToNode: (id: string, sidebarOpen = false) => {
       const node = data.nodeMap.get(id);
       if (!node || !svgRef.current || !zoomBehaviorRef.current) return;
       const { cw, ch } = dimsRef.current;
       const scale = 1.5;
       const isMobile = window.innerWidth <= 768;
       const tx = cw / 2 - node.x * scale;
-      // On mobile, place node in top third so bottom sheet doesn't cover it
-      const ty = (isMobile ? ch * 0.3 : ch / 2) - node.y * scale;
+      // Only offset upward on mobile when bottom sheet is open
+      const ty = (isMobile && sidebarOpen ? ch * 0.3 : ch / 2) - node.y * scale;
       d3.select(svgRef.current)
         .transition()
         .duration(600)
