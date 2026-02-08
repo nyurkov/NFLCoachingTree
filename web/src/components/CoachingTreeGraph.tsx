@@ -90,8 +90,10 @@ const CoachingTreeGraph = forwardRef<GraphHandle, Props>(function CoachingTreeGr
       if (!node || !svgRef.current || !zoomBehaviorRef.current) return;
       const { cw, ch } = dimsRef.current;
       const scale = 1.5;
+      const isMobile = window.innerWidth <= 768;
       const tx = cw / 2 - node.x * scale;
-      const ty = ch / 2 - node.y * scale;
+      // On mobile, place node in top third so bottom sheet doesn't cover it
+      const ty = (isMobile ? ch * 0.3 : ch / 2) - node.y * scale;
       d3.select(svgRef.current)
         .transition()
         .duration(600)
@@ -398,10 +400,10 @@ const CoachingTreeGraph = forwardRef<GraphHandle, Props>(function CoachingTreeGr
 
       callbacksRef.current.onNodeClick(d);
 
-      // Zoom to node
+      // Zoom to node — offset upward so bottom sheet doesn't cover it
       const scale = 1.5;
       const tx = dimsRef.current.cw / 2 - d.x * scale;
-      const ty = dimsRef.current.ch / 2 - d.y * scale;
+      const ty = dimsRef.current.ch * 0.3 - d.y * scale;
       svg
         .transition()
         .duration(600)

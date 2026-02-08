@@ -110,7 +110,7 @@ export default function SearchBar({ data, onSelect, onClear }: Props) {
         onKeyDown={handleKeyDown}
         placeholder="Search coaches..."
         autoComplete="off"
-        className="px-3 py-1.5 bg-[#1a2234] border border-[#2a3548] text-[#e2e8f0] rounded-md text-[0.8rem] w-[200px] outline-none transition-all placeholder:text-[#64748b] focus:border-[#3b82f6] focus:w-[240px] max-md:w-full max-md:focus:w-full"
+        className="px-3 py-1.5 bg-[#1a2234] border border-[#2a3548] text-[#e2e8f0] rounded-md text-[0.8rem] w-[200px] outline-none transition-all placeholder:text-[#64748b] focus:border-[#3b82f6] focus:w-[240px] max-md:w-full max-md:focus:w-full max-md:text-[16px]"
       />
 
       {open && matches.length > 0 && (
