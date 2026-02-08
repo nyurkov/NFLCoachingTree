@@ -1,0 +1,6176 @@
+{
+  "coaches": [
+    {
+      "id": "mike-lafleur",
+      "name": "Mike LaFleur",
+      "current_team": "Arizona Cardinals",
+      "is_current_hc": true
+    },
+    {
+      "id": "kevin-stefanski",
+      "name": "Kevin Stefanski",
+      "current_team": "Atlanta Falcons",
+      "is_current_hc": true
+    },
+    {
+      "id": "jesse-minter",
+      "name": "Jesse Minter",
+      "current_team": "Baltimore Ravens",
+      "is_current_hc": true
+    },
+    {
+      "id": "joe-brady",
+      "name": "Joe Brady",
+      "current_team": "Buffalo Bills",
+      "is_current_hc": true
+    },
+    {
+      "id": "dave-canales",
+      "name": "Dave Canales",
+      "current_team": "Carolina Panthers",
+      "is_current_hc": true
+    },
+    {
+      "id": "ben-johnson",
+      "name": "Ben Johnson",
+      "current_team": "Chicago Bears",
+      "is_current_hc": true
+    },
+    {
+      "id": "zac-taylor",
+      "name": "Zac Taylor",
+      "current_team": "Cincinnati Bengals",
+      "is_current_hc": true
+    },
+    {
+      "id": "todd-monken",
+      "name": "Todd Monken",
+      "current_team": "Cleveland Browns",
+      "is_current_hc": true
+    },
+    {
+      "id": "brian-schottenheimer",
+      "name": "Brian Schottenheimer",
+      "current_team": "Dallas Cowboys",
+      "is_current_hc": true
+    },
+    {
+      "id": "sean-payton",
+      "name": "Sean Payton",
+      "current_team": "Denver Broncos",
+      "is_current_hc": true
+    },
+    {
+      "id": "dan-campbell",
+      "name": "Dan Campbell",
+      "current_team": "Detroit Lions",
+      "is_current_hc": true
+    },
+    {
+      "id": "matt-lafleur",
+      "name": "Matt LaFleur",
+      "current_team": "Green Bay Packers",
+      "is_current_hc": true
+    },
+    {
+      "id": "demeco-ryans",
+      "name": "DeMeco Ryans",
+      "current_team": "Houston Texans",
+      "is_current_hc": true
+    },
+    {
+      "id": "shane-steichen",
+      "name": "Shane Steichen",
+      "current_team": "Indianapolis Colts",
+      "is_current_hc": true
+    },
+    {
+      "id": "liam-coen",
+      "name": "Liam Coen",
+      "current_team": "Jacksonville Jaguars",
+      "is_current_hc": true
+    },
+    {
+      "id": "andy-reid",
+      "name": "Andy Reid",
+      "current_team": "Kansas City Chiefs",
+      "is_current_hc": true
+    },
+    {
+      "id": "jim-harbaugh",
+      "name": "Jim Harbaugh",
+      "current_team": "Los Angeles Chargers",
+      "is_current_hc": true
+    },
+    {
+      "id": "sean-mcvay",
+      "name": "Sean McVay",
+      "current_team": "Los Angeles Rams",
+      "is_current_hc": true
+    },
+    {
+      "id": "jeff-hafley",
+      "name": "Jeff Hafley",
+      "current_team": "Miami Dolphins",
+      "is_current_hc": true
+    },
+    {
+      "id": "kevin-oconnell",
+      "name": "Kevin O'Connell",
+      "current_team": "Minnesota Vikings",
+      "is_current_hc": true
+    },
+    {
+      "id": "mike-vrabel",
+      "name": "Mike Vrabel",
+      "current_team": "New England Patriots",
+      "is_current_hc": true
+    },
+    {
+      "id": "kellen-moore",
+      "name": "Kellen Moore",
+      "current_team": "New Orleans Saints",
+      "is_current_hc": true
+    },
+    {
+      "id": "john-harbaugh",
+      "name": "John Harbaugh",
+      "current_team": "New York Giants",
+      "is_current_hc": true
+    },
+    {
+      "id": "aaron-glenn",
+      "name": "Aaron Glenn",
+      "current_team": "New York Jets",
+      "is_current_hc": true
+    },
+    {
+      "id": "nick-sirianni",
+      "name": "Nick Sirianni",
+      "current_team": "Philadelphia Eagles",
+      "is_current_hc": true
+    },
+    {
+      "id": "mike-mccarthy",
+      "name": "Mike McCarthy",
+      "current_team": "Pittsburgh Steelers",
+      "is_current_hc": true
+    },
+    {
+      "id": "kyle-shanahan",
+      "name": "Kyle Shanahan",
+      "current_team": "San Francisco 49ers",
+      "is_current_hc": true
+    },
+    {
+      "id": "mike-macdonald",
+      "name": "Mike Macdonald",
+      "current_team": "Seattle Seahawks",
+      "is_current_hc": true
+    },
+    {
+      "id": "todd-bowles",
+      "name": "Todd Bowles",
+      "current_team": "Tampa Bay Buccaneers",
+      "is_current_hc": true
+    },
+    {
+      "id": "robert-saleh",
+      "name": "Robert Saleh",
+      "current_team": "Tennessee Titans",
+      "is_current_hc": true
+    },
+    {
+      "id": "dan-quinn",
+      "name": "Dan Quinn",
+      "current_team": "Washington Commanders",
+      "is_current_hc": true
+    },
+    {
+      "id": "mike-sherman",
+      "name": "Mike Sherman",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "joe-philbin",
+      "name": "Joe Philbin",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "tommy-tuberville",
+      "name": "Tommy Tuberville",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "brian-callahan",
+      "name": "Brian Callahan",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "denny-stolz",
+      "name": "Denny Stolz",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "al-luginbill",
+      "name": "Al Luginbill",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "dennis-raetz",
+      "name": "Dennis Raetz",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "randy-walker",
+      "name": "Randy Walker",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "lou-tepper",
+      "name": "Lou Tepper",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "ray-rhodes",
+      "name": "Ray Rhodes",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jim-fassel",
+      "name": "Jim Fassel",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bill-parcells",
+      "name": "Bill Parcells",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "doug-marrone",
+      "name": "Doug Marrone",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "curtis-johnson",
+      "name": "Curtis Johnson",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "dennis-allen",
+      "name": "Dennis Allen",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "aaron-kromer",
+      "name": "Aaron Kromer",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "joe-vitt",
+      "name": "Joe Vitt",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "marc-trestman",
+      "name": "Marc Trestman",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "ed-orgeron",
+      "name": "Ed Orgeron",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "john-bonamego",
+      "name": "John Bonamego",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-neu",
+      "name": "Mike Neu",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "steve-spagnuolo",
+      "name": "Steve Spagnuolo",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "gregg-williams",
+      "name": "Gregg Williams",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "ryan-pace",
+      "name": "Ryan Pace",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "terry-fontenot",
+      "name": "Terry Fontenot",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "darren-mougey",
+      "name": "Darren Mougey",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "lavell-edwards",
+      "name": "LaVell Edwards",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "vic-rowen",
+      "name": "Vic Rowen",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "larry-kentera",
+      "name": "Larry Kentera",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bob-stull",
+      "name": "Bob Stull",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-holmgren",
+      "name": "Mike Holmgren",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "brad-childress",
+      "name": "Brad Childress",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "leslie-frazier",
+      "name": "Leslie Frazier",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "ron-rivera",
+      "name": "Ron Rivera",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "pat-shurmur",
+      "name": "Pat Shurmur",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "doug-pederson",
+      "name": "Doug Pederson",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "sean-mcdermott",
+      "name": "Sean McDermott",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "matt-nagy",
+      "name": "Matt Nagy",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "david-culley",
+      "name": "David Culley",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-kafka",
+      "name": "Mike Kafka",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mark-whipple",
+      "name": "Mark Whipple",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "desean-jackson",
+      "name": "DeSean Jackson",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "michael-vick",
+      "name": "Michael Vick",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "lance-anderson",
+      "name": "Lance Anderson",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "don-brown",
+      "name": "Don Brown",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "dj-durkin",
+      "name": "D.J. Durkin",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "vic-fangio",
+      "name": "Vic Fangio",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jedd-fisch",
+      "name": "Jedd Fisch",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "maurice-linguist",
+      "name": "Maurice Linguist",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "derek-mason",
+      "name": "Derek Mason",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jim-mcelwain",
+      "name": "Jim McElwain",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "sherrone-moore",
+      "name": "Sherrone Moore",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "biff-poggi",
+      "name": "Biff Poggi",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "brian-polian",
+      "name": "Brian Polian",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "tavita-pritchard",
+      "name": "Tavita Pritchard",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-sanford-jr",
+      "name": "Mike Sanford Jr.",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "scott-shafer",
+      "name": "Scott Shafer",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "david-shaw",
+      "name": "David Shaw",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "willie-taggart",
+      "name": "Willie Taggart",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jim-tomsula",
+      "name": "Jim Tomsula",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "tyrone-wheatley",
+      "name": "Tyrone Wheatley",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "paul-wulff",
+      "name": "Paul Wulff",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jon-gruden",
+      "name": "Jon Gruden",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jim-haslett",
+      "name": "Jim Haslett",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-shanahan",
+      "name": "Mike Shanahan",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jay-gruden",
+      "name": "Jay Gruden",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "brandon-staley",
+      "name": "Brandon Staley",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "raheem-morris",
+      "name": "Raheem Morris",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "thomas-brown",
+      "name": "Thomas Brown",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "tory-woodbury",
+      "name": "Tory Woodbury",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "arizona-cardinals",
+      "name": "Arizona Cardinals",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jack-harbaugh",
+      "name": "Jack Harbaugh",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-gottfried",
+      "name": "Mike Gottfried",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bill-baldridge",
+      "name": "Bill Baldridge",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "tim-murphy",
+      "name": "Tim Murphy",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "rick-minter",
+      "name": "Rick Minter",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "cam-cameron",
+      "name": "Cam Cameron",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "rex-ryan",
+      "name": "Rex Ryan",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "hue-jackson",
+      "name": "Hue Jackson",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "chuck-pagano",
+      "name": "Chuck Pagano",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jim-caldwell",
+      "name": "Jim Caldwell",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-pettine",
+      "name": "Mike Pettine",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "gary-kubiak",
+      "name": "Gary Kubiak",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "thomas-hammock",
+      "name": "Thomas Hammock",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "larry-kehres",
+      "name": "Larry Kehres",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "todd-haley",
+      "name": "Todd Haley",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "romeo-crennel",
+      "name": "Romeo Crennel",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-mccoy",
+      "name": "Mike McCoy",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "anthony-lynn",
+      "name": "Anthony Lynn",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "frank-reich",
+      "name": "Frank Reich",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jonathan-gannon",
+      "name": "Jonathan Gannon",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "karl-dorrell",
+      "name": "Karl Dorrell",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-mcdaniel",
+      "name": "Mike McDaniel",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "doug-williams",
+      "name": "Doug Williams",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "al-groh",
+      "name": "Al Groh",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "butch-davis",
+      "name": "Butch Davis",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "terry-robiskie",
+      "name": "Terry Robiskie",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "wade-phillips",
+      "name": "Wade Phillips",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "tony-sparano",
+      "name": "Tony Sparano",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bruce-arians",
+      "name": "Bruce Arians",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "brian-daboll",
+      "name": "Brian Daboll",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jimmye-laycock",
+      "name": "Jimmye Laycock",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bill-stewart",
+      "name": "Bill Stewart",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "joe-gardi",
+      "name": "Joe Gardi",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "steve-mariucci",
+      "name": "Steve Mariucci",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "dennis-erickson",
+      "name": "Dennis Erickson",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "nick-saban",
+      "name": "Nick Saban",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "eric-mangini",
+      "name": "Eric Mangini",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jim-l-mora",
+      "name": "Jim L. Mora",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "pete-carroll",
+      "name": "Pete Carroll",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "will-muschamp",
+      "name": "Will Muschamp",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "steve-sarkisian",
+      "name": "Steve Sarkisian",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jeff-ulbrich",
+      "name": "Jeff Ulbrich",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "tosh-lupoi",
+      "name": "Tosh Lupoi",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jackie-sherrill",
+      "name": "Jackie Sherrill",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "wally-english",
+      "name": "Wally English",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "rick-e-carter",
+      "name": "Rick E. Carter",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "rc-slocum",
+      "name": "R.C. Slocum",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "terry-donahue",
+      "name": "Terry Donahue",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "sylvester-croom",
+      "name": "Sylvester Croom",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jeff-jagodzinski",
+      "name": "Jeff Jagodzinski",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "trent-miles",
+      "name": "Trent Miles",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bo-pelini",
+      "name": "Bo Pelini",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "james-franklin",
+      "name": "James Franklin",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "tim-deruyter",
+      "name": "Tim DeRuyter",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "charlie-jackson",
+      "name": "Charlie Jackson",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "stan-drayton",
+      "name": "Stan Drayton",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "dean-pryor",
+      "name": "Dean Pryor",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "george-karras",
+      "name": "George Karras",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "tom-cahill",
+      "name": "Tom Cahill",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bill-peterson",
+      "name": "Bill Peterson",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "larry-jones",
+      "name": "Larry Jones",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "steve-sloan",
+      "name": "Steve Sloan",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "ray-perkins",
+      "name": "Ray Perkins",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "ron-erhardt",
+      "name": "Ron Erhardt",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bill-belichick",
+      "name": "Bill Belichick",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "ray-handley",
+      "name": "Ray Handley",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "tom-coughlin",
+      "name": "Tom Coughlin",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "walt-harris",
+      "name": "Walt Harris",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "chris-palmer",
+      "name": "Chris Palmer",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "charlie-weis",
+      "name": "Charlie Weis",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-macintyre",
+      "name": "Mike MacIntyre",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-zimmer",
+      "name": "Mike Zimmer",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "freddie-kitchens",
+      "name": "Freddie Kitchens",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "eddie-george",
+      "name": "Eddie George",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "charley-armey",
+      "name": "Charley Armey",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jerry-angelo",
+      "name": "Jerry Angelo",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-tannenbaum",
+      "name": "Mike Tannenbaum",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jeff-ireland",
+      "name": "Jeff Ireland",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "scott-pioli",
+      "name": "Scott Pioli",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "trent-baalke",
+      "name": "Trent Baalke",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "chris-grier",
+      "name": "Chris Grier",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "brian-gaine",
+      "name": "Brian Gaine",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "joe-schoen",
+      "name": "Joe Schoen",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "dave-kragthorpe",
+      "name": "Dave Kragthorpe",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "doug-scovil",
+      "name": "Doug Scovil",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "ted-tollner",
+      "name": "Ted Tollner",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "gary-crowton",
+      "name": "Gary Crowton",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "tom-holmoe",
+      "name": "Tom Holmoe",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "charlie-stubbs",
+      "name": "Charlie Stubbs",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "norm-chow",
+      "name": "Norm Chow",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "brian-billick",
+      "name": "Brian Billick",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "kyle-whittingham",
+      "name": "Kyle Whittingham",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "kalani-sitake",
+      "name": "Kalani Sitake",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bill-walsh",
+      "name": "Bill Walsh",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "george-seifert",
+      "name": "George Seifert",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "dick-jauron",
+      "name": "Dick Jauron",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "marty-mornhinweg",
+      "name": "Marty Mornhinweg",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jim-zorn",
+      "name": "Jim Zorn",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "stump-mitchell",
+      "name": "Stump Mitchell",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "john-defilippo",
+      "name": "John DeFilippo",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "gj-kinne",
+      "name": "G.J. Kinne",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "barry-switzer",
+      "name": "Barry Switzer",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "joe-salem",
+      "name": "Joe Salem",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "darrell-mudra",
+      "name": "Darrell Mudra",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "charley-pell",
+      "name": "Charley Pell",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "dan-reeves",
+      "name": "Dan Reeves",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "art-shell",
+      "name": "Art Shell",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "j-d-brookhart",
+      "name": "J. D. Brookhart",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "greg-robinson",
+      "name": "Greg Robinson",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "tim-brewster",
+      "name": "Tim Brewster",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "troy-calhoun",
+      "name": "Troy Calhoun",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jon-embree",
+      "name": "Jon Embree",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "lou-spanos",
+      "name": "Lou Spanos",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "kliff-kingsbury",
+      "name": "Kliff Kingsbury",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "ed-mccaffrey",
+      "name": "Ed McCaffrey",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "rick-smith",
+      "name": "Rick Smith",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "john-elway",
+      "name": "John Elway",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "reggie-mckenzie",
+      "name": "Reggie McKenzie",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "dave-gettleman",
+      "name": "Dave Gettleman",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "john-lynch",
+      "name": "John Lynch",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "ken-whisenhunt",
+      "name": "Ken Whisenhunt",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-tomlin",
+      "name": "Mike Tomlin",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "l-c-cole",
+      "name": "L. C. Cole",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "dean-pees",
+      "name": "Dean Pees",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bobby-williams",
+      "name": "Bobby Williams",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "tom-amstutz",
+      "name": "Tom Amstutz",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mark-dantonio",
+      "name": "Mark Dantonio",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "brad-salem",
+      "name": "Brad Salem",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "scott-linehan",
+      "name": "Scott Linehan",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "derek-dooley",
+      "name": "Derek Dooley",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "greg-colby",
+      "name": "Greg Colby",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "josh-mcdaniels",
+      "name": "Josh McDaniels",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-haywood",
+      "name": "Mike Haywood",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jimbo-fisher",
+      "name": "Jimbo Fisher",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jason-garrett",
+      "name": "Jason Garrett",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "curt-cignetti",
+      "name": "Curt Cignetti",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jason-woodman",
+      "name": "Jason Woodman",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "adam-gase",
+      "name": "Adam Gase",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "kirby-smart",
+      "name": "Kirby Smart",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "major-applewhite",
+      "name": "Major Applewhite",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "geoff-collins",
+      "name": "Geoff Collins",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jeremy-pruitt",
+      "name": "Jeremy Pruitt",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "billy-napier",
+      "name": "Billy Napier",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mel-tucker",
+      "name": "Mel Tucker",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "joe-judge",
+      "name": "Joe Judge",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "charles-huff",
+      "name": "Charles Huff",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "dan-lanning",
+      "name": "Dan Lanning",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "brent-key",
+      "name": "Brent Key",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "lance-taylor",
+      "name": "Lance Taylor",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jody-wright",
+      "name": "Jody Wright",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "charles-kelly",
+      "name": "Charles Kelly",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "scott-cochran",
+      "name": "Scott Cochran",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "pete-golding",
+      "name": "Pete Golding",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "alex-mortensen",
+      "name": "Alex Mortensen",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-mularkey",
+      "name": "Mike Mularkey",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mario-cristobal",
+      "name": "Mario Cristobal",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "lane-kiffin",
+      "name": "Lane Kiffin",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-locksley",
+      "name": "Mike Locksley",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "butch-jones",
+      "name": "Butch Jones",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bill-obrien",
+      "name": "Bill O'Brien",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "ron-cooper",
+      "name": "Ron Cooper",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "herb-haygood",
+      "name": "Herb Haygood",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "matt-eberflus",
+      "name": "Matt Eberflus",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "chester-caddas",
+      "name": "Chester Caddas",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "lou-holtz",
+      "name": "Lou Holtz",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "earle-bruce",
+      "name": "Earle Bruce",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "monte-kiffin",
+      "name": "Monte Kiffin",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bob-cope",
+      "name": "Bob Cope",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "kay-stephenson",
+      "name": "Kay Stephenson",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bud-grant",
+      "name": "Bud Grant",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jerry-burns",
+      "name": "Jerry Burns",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bruce-coslet",
+      "name": "Bruce Coslet",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "nick-holt",
+      "name": "Nick Holt",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "sparky-woods",
+      "name": "Sparky Woods",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "dewayne-walker",
+      "name": "DeWayne Walker",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "larry-kennan",
+      "name": "Larry Kennan",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "gus-bradley",
+      "name": "Gus Bradley",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "john-idzik-jr",
+      "name": "John Idzik Jr.",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jason-licht",
+      "name": "Jason Licht",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "scot-mccloughan",
+      "name": "Scot McCloughan",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "scott-fitterer",
+      "name": "Scott Fitterer",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "dan-morgan",
+      "name": "Dan Morgan",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "manny-diaz",
+      "name": "Manny Diaz",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "joe-moorhead",
+      "name": "Joe Moorhead",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "gerad-parker",
+      "name": "Gerad Parker",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "brent-pry",
+      "name": "Brent Pry",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "ricky-rahne",
+      "name": "Ricky Rahne",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "terry-smith",
+      "name": "Terry Smith",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "ted-marchibroda",
+      "name": "Ted Marchibroda",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "rick-forzano",
+      "name": "Rick Forzano",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "tommy-hudspeth",
+      "name": "Tommy Hudspeth",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "red-miller",
+      "name": "Red Miller",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "rod-dowhower",
+      "name": "Rod Dowhower",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "pat-hill",
+      "name": "Pat Hill",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "woody-widenhofer",
+      "name": "Woody Widenhofer",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "kirk-ferentz",
+      "name": "Kirk Ferentz",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jim-schwartz",
+      "name": "Jim Schwartz",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "pete-mangurian",
+      "name": "Pete Mangurian",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "matt-patricia",
+      "name": "Matt Patricia",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "brian-flores",
+      "name": "Brian Flores",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bret-bielema",
+      "name": "Bret Bielema",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jerod-mayo",
+      "name": "Jerod Mayo",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "frank-broyles",
+      "name": "Frank Broyles",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jim-mackenzie",
+      "name": "Jim Mackenzie",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "chuck-fairbanks",
+      "name": "Chuck Fairbanks",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "tim-billings",
+      "name": "Tim Billings",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "john-blake",
+      "name": "John Blake",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mack-brown",
+      "name": "Mack Brown",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "dave-campo",
+      "name": "Dave Campo",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jim-donnan",
+      "name": "Jim Donnan",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "donnie-duncan",
+      "name": "Donnie Duncan",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "gary-gibbs",
+      "name": "Gary Gibbs",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "galen-hall",
+      "name": "Galen Hall",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "larry-lacewell",
+      "name": "Larry Lacewell",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "brad-lambert",
+      "name": "Brad Lambert",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "wendell-mosley",
+      "name": "Wendell Mosley",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jerry-pettibone",
+      "name": "Jerry Pettibone",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "charlie-sadler",
+      "name": "Charlie Sadler",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "scottie-montgomery",
+      "name": "Scottie Montgomery",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "buddy-ryan",
+      "name": "Buddy Ryan",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "les-steckel",
+      "name": "Les Steckel",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "neill-armstrong",
+      "name": "Neill Armstrong",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "jack-patera",
+      "name": "Jack Patera",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bob-hollway",
+      "name": "Bob Hollway",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bill-mcpeak",
+      "name": "Bill McPeak",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "george-allen",
+      "name": "George Allen",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "monte-clark",
+      "name": "Monte Clark",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "marion-campbell",
+      "name": "Marion Campbell",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "marv-levy",
+      "name": "Marv Levy",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "lindy-infante",
+      "name": "Lindy Infante",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "marvin-lewis",
+      "name": "Marvin Lewis",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "vince-tobin",
+      "name": "Vince Tobin",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "klint-kubiak",
+      "name": "Klint Kubiak",
+      "current_team": "Las Vegas Raiders",
+      "is_current_hc": true
+    },
+    {
+      "id": "greg-schiano",
+      "name": "Greg Schiano",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "marty-schottenheimer",
+      "name": "Marty Schottenheimer",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "mike-ditka",
+      "name": "Mike Ditka",
+      "current_team": null,
+      "is_current_hc": false
+    },
+    {
+      "id": "bill-callahan",
+      "name": "Bill Callahan",
+      "current_team": null,
+      "is_current_hc": false
+    }
+  ],
+  "connections": [
+    {
+      "source": "mike-sherman",
+      "target": "zac-taylor",
+      "type": "coaching_tree",
+      "years": "2008-2011",
+      "context": "Mike Sherman,Texas A&M Aggies(2008–2011)"
+    },
+    {
+      "source": "joe-philbin",
+      "target": "zac-taylor",
+      "type": "coaching_tree",
+      "years": "2012-2015",
+      "context": "Joe Philbin,Miami Dolphins(2012–2015)"
+    },
+    {
+      "source": "tommy-tuberville",
+      "target": "zac-taylor",
+      "type": "coaching_tree",
+      "years": "2016",
+      "context": "Tommy Tuberville,Cincinnati(2016)"
+    },
+    {
+      "source": "sean-mcvay",
+      "target": "zac-taylor",
+      "type": "coaching_tree",
+      "years": "2017-2018",
+      "context": "Sean McVay,Los Angeles Rams(2017–2018)"
+    },
+    {
+      "source": "zac-taylor",
+      "target": "brian-callahan",
+      "type": "coaching_tree",
+      "years": "2024-2025",
+      "context": "Brian Callahan,Tennessee Titans(2024–2025)[58]"
+    },
+    {
+      "source": "denny-stolz",
+      "target": "sean-payton",
+      "type": "coaching_tree",
+      "years": "1988",
+      "context": "Denny Stolz,San Diego State(1988)[102]"
+    },
+    {
+      "source": "al-luginbill",
+      "target": "sean-payton",
+      "type": "coaching_tree",
+      "years": "1992-1993",
+      "context": "Al Luginbill, San Diego State (1989, 1992–1993)[103]"
+    },
+    {
+      "source": "dennis-raetz",
+      "target": "sean-payton",
+      "type": "coaching_tree",
+      "years": "1990-1991",
+      "context": "Dennis Raetz,Indiana State(1990–1991)[104]"
+    },
+    {
+      "source": "randy-walker",
+      "target": "sean-payton",
+      "type": "coaching_tree",
+      "years": "1994-1995",
+      "context": "Randy Walker,Miami (OH)(1994–1995)[105]"
+    },
+    {
+      "source": "lou-tepper",
+      "target": "sean-payton",
+      "type": "coaching_tree",
+      "years": "1996",
+      "context": "Lou Tepper,Illinois(1996)[106]"
+    },
+    {
+      "source": "ray-rhodes",
+      "target": "sean-payton",
+      "type": "coaching_tree",
+      "years": "1997-1998",
+      "context": "Ray Rhodes,Philadelphia Eagles(1997–1998)[107]"
+    },
+    {
+      "source": "jim-fassel",
+      "target": "sean-payton",
+      "type": "coaching_tree",
+      "years": "1999-2002",
+      "context": "Jim Fassel,New York Giants(1999–2002)[108]"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "sean-payton",
+      "type": "coaching_tree",
+      "years": "2003-2005",
+      "context": "Bill Parcells,Dallas Cowboys(2003–2005)[109]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "doug-marrone",
+      "type": "coaching_tree",
+      "years": "2009-2012",
+      "context": "Doug Marrone,Syracuse(2009–2012),Buffalo Bills(2013–2014),Jacksonville Jaguars(2016, interim, 2017–2020)[110]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "curtis-johnson",
+      "type": "coaching_tree",
+      "years": "2012-2015",
+      "context": "Curtis Johnson,Tulane(2012–2015)[111]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "dennis-allen",
+      "type": "coaching_tree",
+      "years": "2012-2014",
+      "context": "Dennis Allen,Oakland Raiders(2012–2014),New Orleans Saints(2022–2024)[112]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "aaron-kromer",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Aaron Kromer, New Orleans Saints (2012, interim)[113]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "joe-vitt",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Joe Vitt, New Orleans Saints (2012, interim)[114]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "marc-trestman",
+      "type": "coaching_tree",
+      "years": "2013-2014",
+      "context": "Marc Trestman,Chicago Bears(2013–2014)[115]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "ed-orgeron",
+      "type": "coaching_tree",
+      "years": "2016-2021",
+      "context": "Ed Orgeron,USC(2013, interim),LSU(2016–2021)[116]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "john-bonamego",
+      "type": "coaching_tree",
+      "years": "2015-2018",
+      "context": "John Bonamego,Central Michigan(2015–2018)[117]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "mike-neu",
+      "type": "coaching_tree",
+      "years": "2016-2024",
+      "context": "Mike Neu,Ball State(2016–2024)[118]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "steve-spagnuolo",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Steve Spagnuolo, New York Giants (2017, interim)[119]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "gregg-williams",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Gregg Williams,Cleveland Browns(2018, interim)[120]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "dan-campbell",
+      "type": "coaching_tree",
+      "years": "2021-present",
+      "context": "Dan Campbell,Detroit Lions(2021–present)[121]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "aaron-glenn",
+      "type": "coaching_tree",
+      "years": "2025-present",
+      "context": "Aaron Glenn,New York Jets(2025–present)[122]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "joe-brady",
+      "type": "coaching_tree",
+      "years": "2026-present",
+      "context": "Joe Brady,Buffalo Bills(2026–present)[123]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "ryan-pace",
+      "type": "coaching_tree",
+      "years": "2015-2021",
+      "context": "Ryan Pace, Chicago Bears (2015–2021)[124]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "terry-fontenot",
+      "type": "coaching_tree",
+      "years": "2021-present",
+      "context": "Terry Fontenot,Atlanta Falcons(2021–present)[125]"
+    },
+    {
+      "source": "sean-payton",
+      "target": "darren-mougey",
+      "type": "coaching_tree",
+      "years": "2025-present",
+      "context": "Darren Mougey,New York Jets(2025–present)[126]"
+    },
+    {
+      "source": "lavell-edwards",
+      "target": "andy-reid",
+      "type": "coaching_tree",
+      "years": "1982",
+      "context": "LaVell Edwards,BYU(1982)[145]"
+    },
+    {
+      "source": "vic-rowen",
+      "target": "andy-reid",
+      "type": "coaching_tree",
+      "years": "1983-1985",
+      "context": "Vic Rowen,San Francisco State(1983–1985)[146]"
+    },
+    {
+      "source": "larry-kentera",
+      "target": "andy-reid",
+      "type": "coaching_tree",
+      "years": "1986",
+      "context": "Larry Kentera,Northern Arizona(1986)[147]"
+    },
+    {
+      "source": "bob-stull",
+      "target": "andy-reid",
+      "type": "coaching_tree",
+      "years": "1987-1988",
+      "context": "Bob Stull,UTEP(1987–1988),Missouri(1989–1991)[148]"
+    },
+    {
+      "source": "mike-holmgren",
+      "target": "andy-reid",
+      "type": "coaching_tree",
+      "years": "1992-1998",
+      "context": "Mike Holmgren,Green Bay Packers(1992–1998)[149]"
+    },
+    {
+      "source": "andy-reid",
+      "target": "brad-childress",
+      "type": "coaching_tree",
+      "years": "2006-2010",
+      "context": "Brad Childress,Minnesota Vikings(2006–2010)[152]"
+    },
+    {
+      "source": "andy-reid",
+      "target": "john-harbaugh",
+      "type": "coaching_tree",
+      "years": "2008-2025",
+      "context": "John Harbaugh,Baltimore Ravens(2008–2025),New York Giants(2026-present)[153]"
+    },
+    {
+      "source": "andy-reid",
+      "target": "steve-spagnuolo",
+      "type": "coaching_tree",
+      "years": "2009-2011",
+      "context": "Steve Spagnuolo,St. Louis Rams(2009–2011),New York Giants(2017, interim)[154]"
+    },
+    {
+      "source": "andy-reid",
+      "target": "leslie-frazier",
+      "type": "coaching_tree",
+      "years": "2011-2013",
+      "context": "Leslie Frazier,Minnesota Vikings(2010, interim, 2011–2013)[155]"
+    },
+    {
+      "source": "andy-reid",
+      "target": "ron-rivera",
+      "type": "coaching_tree",
+      "years": "2011-2019",
+      "context": "Ron Rivera,Carolina Panthers(2011–2019),Washington Football Team / Commanders(2020–2023)[156]"
+    },
+    {
+      "source": "andy-reid",
+      "target": "pat-shurmur",
+      "type": "coaching_tree",
+      "years": "2011-2012",
+      "context": "Pat Shurmur,Cleveland Browns(2011–2012),Philadelphia Eagles(2015, interim),New York Giants(2018–2019)[157]"
+    },
+    {
+      "source": "andy-reid",
+      "target": "doug-pederson",
+      "type": "coaching_tree",
+      "years": "2016-2020",
+      "context": "Doug Pederson,Philadelphia Eagles(2016–2020),Jacksonville Jaguars(2022–2024)[159]"
+    },
+    {
+      "source": "andy-reid",
+      "target": "sean-mcdermott",
+      "type": "coaching_tree",
+      "years": "2017-2025",
+      "context": "Sean McDermott,Buffalo Bills(2017–2025)[160]"
+    },
+    {
+      "source": "andy-reid",
+      "target": "matt-nagy",
+      "type": "coaching_tree",
+      "years": "2018-2021",
+      "context": "Matt Nagy,Chicago Bears(2018–2021)[161]"
+    },
+    {
+      "source": "andy-reid",
+      "target": "david-culley",
+      "type": "coaching_tree",
+      "years": "2021",
+      "context": "David Culley,Houston Texans(2021)[162]"
+    },
+    {
+      "source": "andy-reid",
+      "target": "mike-kafka",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Mike Kafka,New York Giants(2025 interim)"
+    },
+    {
+      "source": "andy-reid",
+      "target": "mark-whipple",
+      "type": "coaching_tree",
+      "years": "2014-2018",
+      "context": "Mark Whipple,UMass(2014–2018)"
+    },
+    {
+      "source": "andy-reid",
+      "target": "demeco-ryans",
+      "type": "coaching_tree",
+      "years": "2023-present",
+      "context": "DeMeco Ryans,Houston Texans(2023–present)[163]"
+    },
+    {
+      "source": "andy-reid",
+      "target": "desean-jackson",
+      "type": "coaching_tree",
+      "years": "2025-present",
+      "context": "DeSean Jackson,Delaware State(2025–present)[164]"
+    },
+    {
+      "source": "andy-reid",
+      "target": "michael-vick",
+      "type": "coaching_tree",
+      "years": "2025-present",
+      "context": "Michael Vick,Norfolk State(2025–present)[165]"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "lance-anderson",
+      "type": "coaching_tree",
+      "years": "2024-present",
+      "context": "Lance Anderson:Utah State(2024-present)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "don-brown",
+      "type": "coaching_tree",
+      "years": "2022-2024",
+      "context": "Don Brown:UMass(2022-2024)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "dj-durkin",
+      "type": "coaching_tree",
+      "years": "2016-2018",
+      "context": "D.J. Durkin:Maryland(2016-2018)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "vic-fangio",
+      "type": "coaching_tree",
+      "years": "2019-2021",
+      "context": "Vic Fangio:Denver Broncos(2019-2021)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "jedd-fisch",
+      "type": "coaching_tree",
+      "years": "2021-2023",
+      "context": "Jedd Fisch:Arizona(2021-2023),Washington(2024-present)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "maurice-linguist",
+      "type": "coaching_tree",
+      "years": "2021-2023",
+      "context": "Maurice Linguist:Buffalo(2021-2023)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "derek-mason",
+      "type": "coaching_tree",
+      "years": "2014-2020",
+      "context": "Derek Mason:Vanderbilt(2014-2020),Middle Tennessee(2024-present)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "mike-macdonald",
+      "type": "coaching_tree",
+      "years": "2024-present",
+      "context": "Mike Macdonald:Seattle Seahawks(2024-present)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "jim-mcelwain",
+      "type": "coaching_tree",
+      "years": "2019-2024",
+      "context": "Jim McElwain:Central Michigan(2019-2024)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "jesse-minter",
+      "type": "coaching_tree",
+      "years": "2026-present",
+      "context": "Jesse Minter:Baltimore Ravens(2026-present)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "sherrone-moore",
+      "type": "coaching_tree",
+      "years": "2024-2025",
+      "context": "Sherrone Moore:Michigan(2024-2025)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "biff-poggi",
+      "type": "coaching_tree",
+      "years": "2023-2024",
+      "context": "Biff Poggi:Charlotte(2023-2024)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "brian-polian",
+      "type": "coaching_tree",
+      "years": "2013-2016",
+      "context": "Brian Polian:Nevada(2013-2016)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "tavita-pritchard",
+      "type": "coaching_tree",
+      "years": "2026-present",
+      "context": "Tavita Pritchard:Stanford(2026-present)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "mike-sanford-jr",
+      "type": "coaching_tree",
+      "years": "2017-2018",
+      "context": "Mike Sanford Jr.:Western Kentucky(2017-2018)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "scott-shafer",
+      "type": "coaching_tree",
+      "years": "2013-2015",
+      "context": "Scott Shafer:Syracuse(2013-2015)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "david-shaw",
+      "type": "coaching_tree",
+      "years": "2011-2022",
+      "context": "David Shaw:Stanford(2011-2022)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "willie-taggart",
+      "type": "coaching_tree",
+      "years": "2010-2012",
+      "context": "Willie Taggart:Western Kentucky(2010-2012),South Florida(2013-2016),Oregon(2017),Florida State(2018-2019),Florida Atlantic(2020-2022)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "jim-tomsula",
+      "type": "coaching_tree",
+      "years": "2015",
+      "context": "Jim Tomsula:San Francisco 49ers(2015)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "tyrone-wheatley",
+      "type": "coaching_tree",
+      "years": "2019-2021",
+      "context": "Tyrone Wheatley:Morgan State(2019-2021)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "paul-wulff",
+      "type": "coaching_tree",
+      "years": "2023-2025",
+      "context": "Paul Wulff:Cal Poly Mustangs(2023-2025)"
+    },
+    {
+      "source": "jon-gruden",
+      "target": "sean-mcvay",
+      "type": "coaching_tree",
+      "years": "2008",
+      "context": "Jon Gruden,Tampa Bay Buccaneers(2008)"
+    },
+    {
+      "source": "jim-haslett",
+      "target": "sean-mcvay",
+      "type": "coaching_tree",
+      "years": "2009",
+      "context": "Jim Haslett,Florida Tuskers(2009)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "sean-mcvay",
+      "type": "coaching_tree",
+      "years": "2010-2013",
+      "context": "Mike Shanahan,Washington Redskins(2010–2013)"
+    },
+    {
+      "source": "jay-gruden",
+      "target": "sean-mcvay",
+      "type": "coaching_tree",
+      "years": "2014-2016",
+      "context": "Jay Gruden, Washington Redskins (2014–2016)"
+    },
+    {
+      "source": "sean-mcvay",
+      "target": "jedd-fisch",
+      "type": "coaching_tree",
+      "years": "2021-2023",
+      "context": "Jedd Fisch,Arizona(2021–2023),Washington(2024–present)"
+    },
+    {
+      "source": "sean-mcvay",
+      "target": "brandon-staley",
+      "type": "coaching_tree",
+      "years": "2021-2023",
+      "context": "Brandon Staley,Los Angeles Chargers(2021–2023)"
+    },
+    {
+      "source": "sean-mcvay",
+      "target": "kevin-oconnell",
+      "type": "coaching_tree",
+      "years": "2022-present",
+      "context": "Kevin O'Connell,Minnesota Vikings(2022–present)"
+    },
+    {
+      "source": "sean-mcvay",
+      "target": "raheem-morris",
+      "type": "coaching_tree",
+      "years": "2024-2025",
+      "context": "Raheem Morris,Atlanta Falcons(2024–2025)[a]"
+    },
+    {
+      "source": "sean-mcvay",
+      "target": "thomas-brown",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Thomas Brown,Chicago Bears(2024, interim)"
+    },
+    {
+      "source": "sean-mcvay",
+      "target": "liam-coen",
+      "type": "coaching_tree",
+      "years": "2025-present",
+      "context": "Liam Coen,Jacksonville Jaguars(2025–present)"
+    },
+    {
+      "source": "sean-mcvay",
+      "target": "tory-woodbury",
+      "type": "coaching_tree",
+      "years": "2026-present",
+      "context": "Tory Woodbury,Winston-Salem State(2026–present)"
+    },
+    {
+      "source": "sean-mcvay",
+      "target": "arizona-cardinals",
+      "type": "coaching_tree",
+      "years": "2026-present",
+      "context": "Mike LaFleur,Arizona Cardinals(2026–present)"
+    },
+    {
+      "source": "sean-mcvay",
+      "target": "desean-jackson",
+      "type": "coaching_tree",
+      "years": "2025-present",
+      "context": "DeSean Jackson,Delaware State(2025–present)"
+    },
+    {
+      "source": "jack-harbaugh",
+      "target": "john-harbaugh",
+      "type": "coaching_tree",
+      "years": "1984-1987",
+      "context": "Jack Harbaugh,Western Michigan(1984–1987)"
+    },
+    {
+      "source": "mike-gottfried",
+      "target": "john-harbaugh",
+      "type": "coaching_tree",
+      "years": "1987",
+      "context": "Mike Gottfried,Pittsburgh(1987)"
+    },
+    {
+      "source": "bill-baldridge",
+      "target": "john-harbaugh",
+      "type": "coaching_tree",
+      "years": "1988",
+      "context": "Bill Baldridge,Morehead State(1988)"
+    },
+    {
+      "source": "tim-murphy",
+      "target": "john-harbaugh",
+      "type": "coaching_tree",
+      "years": "1989-1993",
+      "context": "Tim Murphy,Cincinnati(1989–1993)"
+    },
+    {
+      "source": "rick-minter",
+      "target": "john-harbaugh",
+      "type": "coaching_tree",
+      "years": "1994-1996",
+      "context": "Rick Minter, Cincinnati (1994–1996)"
+    },
+    {
+      "source": "cam-cameron",
+      "target": "john-harbaugh",
+      "type": "coaching_tree",
+      "years": "1997",
+      "context": "Cam Cameron,Indiana(1997)"
+    },
+    {
+      "source": "ray-rhodes",
+      "target": "john-harbaugh",
+      "type": "coaching_tree",
+      "years": "1998",
+      "context": "Ray Rhodes,Philadelphia Eagles(1998)"
+    },
+    {
+      "source": "john-harbaugh",
+      "target": "rex-ryan",
+      "type": "coaching_tree",
+      "years": "2009-2014",
+      "context": "Rex Ryan,New York Jets(2009–2014),Buffalo Bills(2015–2016)"
+    },
+    {
+      "source": "john-harbaugh",
+      "target": "hue-jackson",
+      "type": "coaching_tree",
+      "years": "2016-2018",
+      "context": "Hue Jackson, Oakland Raiders (2011),Cleveland Browns(2016–2018)"
+    },
+    {
+      "source": "john-harbaugh",
+      "target": "chuck-pagano",
+      "type": "coaching_tree",
+      "years": "2012-2017",
+      "context": "Chuck Pagano,Indianapolis Colts(2012–2017)"
+    },
+    {
+      "source": "john-harbaugh",
+      "target": "jim-caldwell",
+      "type": "coaching_tree",
+      "years": "2014-2017",
+      "context": "Jim Caldwell,Detroit Lions(2014–2017)[a]"
+    },
+    {
+      "source": "john-harbaugh",
+      "target": "mike-pettine",
+      "type": "coaching_tree",
+      "years": "2014-2015",
+      "context": "Mike Pettine,Cleveland Browns(2014–2015)"
+    },
+    {
+      "source": "john-harbaugh",
+      "target": "gary-kubiak",
+      "type": "coaching_tree",
+      "years": "2015-2016",
+      "context": "Gary Kubiak,Denver Broncos(2015–2016)[b]"
+    },
+    {
+      "source": "john-harbaugh",
+      "target": "vic-fangio",
+      "type": "coaching_tree",
+      "years": "2019-2021",
+      "context": "Vic Fangio, Denver Broncos (2019–2021)"
+    },
+    {
+      "source": "john-harbaugh",
+      "target": "thomas-hammock",
+      "type": "coaching_tree",
+      "years": "2019-present",
+      "context": "Thomas Hammock,Northern Illinois(2019–present)"
+    },
+    {
+      "source": "john-harbaugh",
+      "target": "david-culley",
+      "type": "coaching_tree",
+      "years": "2021",
+      "context": "David Culley,Houston Texans(2021)"
+    },
+    {
+      "source": "john-harbaugh",
+      "target": "mike-macdonald",
+      "type": "coaching_tree",
+      "years": "2024-present",
+      "context": "Mike Macdonald,Seattle Seahawks(2024–present)"
+    },
+    {
+      "source": "john-harbaugh",
+      "target": "jesse-minter",
+      "type": "coaching_tree",
+      "years": "2026-present",
+      "context": "Jesse Minter,Baltimore Ravens(2026–present)"
+    },
+    {
+      "source": "john-harbaugh",
+      "target": "todd-monken",
+      "type": "coaching_tree",
+      "years": "2026-present",
+      "context": "Todd Monken,Cleveland Browns(2026–present)"
+    },
+    {
+      "source": "larry-kehres",
+      "target": "nick-sirianni",
+      "type": "coaching_tree",
+      "years": "2004-2005",
+      "context": "Larry Kehres,Mount Union(2004–2005)"
+    },
+    {
+      "source": "lou-tepper",
+      "target": "nick-sirianni",
+      "type": "coaching_tree",
+      "years": "2006-2008",
+      "context": "Lou Tepper,IUP(2006–2008)"
+    },
+    {
+      "source": "todd-haley",
+      "target": "nick-sirianni",
+      "type": "coaching_tree",
+      "years": "2009-2011",
+      "context": "Todd Haley,Kansas City Chiefs(2009–2011)"
+    },
+    {
+      "source": "romeo-crennel",
+      "target": "nick-sirianni",
+      "type": "coaching_tree",
+      "years": "2011-2012",
+      "context": "Romeo Crennel, Kansas City Chiefs (2011–2012)"
+    },
+    {
+      "source": "mike-mccoy",
+      "target": "nick-sirianni",
+      "type": "coaching_tree",
+      "years": "2013-2016",
+      "context": "Mike McCoy,San Diego Chargers(2013–2016)"
+    },
+    {
+      "source": "anthony-lynn",
+      "target": "nick-sirianni",
+      "type": "coaching_tree",
+      "years": "2017",
+      "context": "Anthony Lynn,Los Angeles Chargers(2017)"
+    },
+    {
+      "source": "frank-reich",
+      "target": "nick-sirianni",
+      "type": "coaching_tree",
+      "years": "2018-2020",
+      "context": "Frank Reich,Indianapolis Colts(2018–2020)"
+    },
+    {
+      "source": "nick-sirianni",
+      "target": "jonathan-gannon",
+      "type": "coaching_tree",
+      "years": "2023-2025",
+      "context": "Jonathan Gannon,Arizona Cardinals(2023–2025)[64]"
+    },
+    {
+      "source": "nick-sirianni",
+      "target": "shane-steichen",
+      "type": "coaching_tree",
+      "years": "2023-present",
+      "context": "Shane Steichen,Indianapolis Colts(2023–present)[65]"
+    },
+    {
+      "source": "nick-sirianni",
+      "target": "kellen-moore",
+      "type": "coaching_tree",
+      "years": "2025-present",
+      "context": "Kellen Moore,New Orleans Saints(2025–present)[66]"
+    },
+    {
+      "source": "karl-dorrell",
+      "target": "kyle-shanahan",
+      "type": "coaching_tree",
+      "years": "2003",
+      "context": "Karl Dorrell,UCLA(2003)[98]"
+    },
+    {
+      "source": "jon-gruden",
+      "target": "kyle-shanahan",
+      "type": "coaching_tree",
+      "years": "2004-2005",
+      "context": "Jon Gruden,Tampa Bay Buccaneers(2004–2005)[99]"
+    },
+    {
+      "source": "gary-kubiak",
+      "target": "kyle-shanahan",
+      "type": "coaching_tree",
+      "years": "2006-2009",
+      "context": "Gary Kubiak,Houston Texans(2006–2009)[100]"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "kyle-shanahan",
+      "type": "coaching_tree",
+      "years": "2010-2013",
+      "context": "Mike Shanahan,Washington Redskins(2010–2013)[101]"
+    },
+    {
+      "source": "mike-pettine",
+      "target": "kyle-shanahan",
+      "type": "coaching_tree",
+      "years": "2014",
+      "context": "Mike Pettine,Cleveland Browns(2014)[102]"
+    },
+    {
+      "source": "dan-quinn",
+      "target": "kyle-shanahan",
+      "type": "coaching_tree",
+      "years": "2015-2016",
+      "context": "Dan Quinn,Atlanta Falcons(2015–2016)[103]"
+    },
+    {
+      "source": "kyle-shanahan",
+      "target": "robert-saleh",
+      "type": "coaching_tree",
+      "years": "2021-2024",
+      "context": "Robert Saleh,New York Jets(2021–2024)[107][108]andTennessee Titans(2026–present)[109]"
+    },
+    {
+      "source": "kyle-shanahan",
+      "target": "mike-mcdaniel",
+      "type": "coaching_tree",
+      "years": "2022-2025",
+      "context": "Mike McDaniel,Miami Dolphins(2022–2025)[110]"
+    },
+    {
+      "source": "kyle-shanahan",
+      "target": "demeco-ryans",
+      "type": "coaching_tree",
+      "years": "2023-present",
+      "context": "DeMeco Ryans,Houston Texans(2023–present)[111]"
+    },
+    {
+      "source": "kyle-shanahan",
+      "target": "arizona-cardinals",
+      "type": "coaching_tree",
+      "years": "2026-present",
+      "context": "Mike LaFleur,Arizona Cardinals(2026–present)[112]"
+    },
+    {
+      "source": "doug-williams",
+      "target": "todd-bowles",
+      "type": "coaching_tree",
+      "years": "1998-1999",
+      "context": "Doug Williams,Morehouse(1997);Grambling State(1998–1999)"
+    },
+    {
+      "source": "al-groh",
+      "target": "todd-bowles",
+      "type": "coaching_tree",
+      "years": "2000",
+      "context": "Al Groh,New York Jets(2000)"
+    },
+    {
+      "source": "butch-davis",
+      "target": "todd-bowles",
+      "type": "coaching_tree",
+      "years": "2001-2004",
+      "context": "Butch Davis,Cleveland Browns(2001–2004)"
+    },
+    {
+      "source": "terry-robiskie",
+      "target": "todd-bowles",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Terry Robiskie, Cleveland Browns (2004, interim)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "todd-bowles",
+      "type": "coaching_tree",
+      "years": "2005-2006",
+      "context": "Bill Parcells,Dallas Cowboys(2005–2006)"
+    },
+    {
+      "source": "wade-phillips",
+      "target": "todd-bowles",
+      "type": "coaching_tree",
+      "years": "2007",
+      "context": "Wade Phillips, Dallas Cowboys (2007)"
+    },
+    {
+      "source": "tony-sparano",
+      "target": "todd-bowles",
+      "type": "coaching_tree",
+      "years": "2008-2011",
+      "context": "Tony Sparano,Miami Dolphins(2008–2011)"
+    },
+    {
+      "source": "andy-reid",
+      "target": "todd-bowles",
+      "type": "coaching_tree",
+      "years": "2012",
+      "context": "Andy Reid,Philadelphia Eagles(2012)"
+    },
+    {
+      "source": "bruce-arians",
+      "target": "todd-bowles",
+      "type": "coaching_tree",
+      "years": "2013-2014",
+      "context": "Bruce Arians,Arizona Cardinals(2013–2014);Tampa Bay Buccaneers(2019–2021)"
+    },
+    {
+      "source": "todd-bowles",
+      "target": "karl-dorrell",
+      "type": "coaching_tree",
+      "years": "2020-2022",
+      "context": "Karl Dorrell,Colorado(2020–2022)"
+    },
+    {
+      "source": "todd-bowles",
+      "target": "dan-campbell",
+      "type": "coaching_tree",
+      "years": "2021-present",
+      "context": "Dan Campbell,Detroit Lions(2021–present)"
+    },
+    {
+      "source": "todd-bowles",
+      "target": "brian-daboll",
+      "type": "coaching_tree",
+      "years": "2022-2025",
+      "context": "Brian Daboll,New York Giants(2022–2025)"
+    },
+    {
+      "source": "todd-bowles",
+      "target": "dave-canales",
+      "type": "coaching_tree",
+      "years": "2024-present",
+      "context": "Dave Canales,Carolina Panthers(2024–present)"
+    },
+    {
+      "source": "todd-bowles",
+      "target": "liam-coen",
+      "type": "coaching_tree",
+      "years": "2025-present",
+      "context": "Liam Coen,Jacksonville Jaguars(2025–present)"
+    },
+    {
+      "source": "jimmye-laycock",
+      "target": "dan-quinn",
+      "type": "coaching_tree",
+      "years": "1994",
+      "context": "Jimmye Laycock,William & Mary(1994)"
+    },
+    {
+      "source": "bill-stewart",
+      "target": "dan-quinn",
+      "type": "coaching_tree",
+      "years": "1995",
+      "context": "Bill Stewart,VMI(1995)"
+    },
+    {
+      "source": "joe-gardi",
+      "target": "dan-quinn",
+      "type": "coaching_tree",
+      "years": "1996-2000",
+      "context": "Joe Gardi,Hofstra(1996–2000)"
+    },
+    {
+      "source": "steve-mariucci",
+      "target": "dan-quinn",
+      "type": "coaching_tree",
+      "years": "2001-2002",
+      "context": "Steve Mariucci,San Francisco 49ers(2001–2002)"
+    },
+    {
+      "source": "dennis-erickson",
+      "target": "dan-quinn",
+      "type": "coaching_tree",
+      "years": "2003-2004",
+      "context": "Dennis Erickson,San Francisco 49ers(2003–2004)"
+    },
+    {
+      "source": "nick-saban",
+      "target": "dan-quinn",
+      "type": "coaching_tree",
+      "years": "2005-2006",
+      "context": "Nick Saban,Miami Dolphins(2005–2006)"
+    },
+    {
+      "source": "eric-mangini",
+      "target": "dan-quinn",
+      "type": "coaching_tree",
+      "years": "2007-2008",
+      "context": "Eric Mangini,New York Jets(2007–2008)"
+    },
+    {
+      "source": "jim-l-mora",
+      "target": "dan-quinn",
+      "type": "coaching_tree",
+      "years": "2009",
+      "context": "Jim L. Mora,Seattle Seahawks(2009)"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "dan-quinn",
+      "type": "coaching_tree",
+      "years": "2013-2014",
+      "context": "Pete Carroll,Seattle Seahawks(2010; 2013–2014)"
+    },
+    {
+      "source": "will-muschamp",
+      "target": "dan-quinn",
+      "type": "coaching_tree",
+      "years": "2011-2012",
+      "context": "Will Muschamp,Florida(2011–2012)"
+    },
+    {
+      "source": "mike-mccarthy",
+      "target": "dan-quinn",
+      "type": "coaching_tree",
+      "years": "2021-2023",
+      "context": "Mike McCarthy,Dallas Cowboys(2021–2023)"
+    },
+    {
+      "source": "dan-quinn",
+      "target": "raheem-morris",
+      "type": "coaching_tree",
+      "years": "2024-2025",
+      "context": "Raheem Morris,Atlanta Falcons(2020, interim; 2024–2025)"
+    },
+    {
+      "source": "dan-quinn",
+      "target": "steve-sarkisian",
+      "type": "coaching_tree",
+      "years": "2021-present",
+      "context": "Steve Sarkisian,Texas(2021–present)"
+    },
+    {
+      "source": "dan-quinn",
+      "target": "mike-mcdaniel",
+      "type": "coaching_tree",
+      "years": "2022-2025",
+      "context": "Mike McDaniel,Miami Dolphins(2022–2025)"
+    },
+    {
+      "source": "dan-quinn",
+      "target": "jeff-ulbrich",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Jeff Ulbrich,New York Jets(2024, interim)"
+    },
+    {
+      "source": "dan-quinn",
+      "target": "tavita-pritchard",
+      "type": "coaching_tree",
+      "years": "2026-present",
+      "context": "Tavita Pritchard,Stanford(2026–present)"
+    },
+    {
+      "source": "dan-quinn",
+      "target": "tosh-lupoi",
+      "type": "coaching_tree",
+      "years": "2026-present",
+      "context": "Tosh Lupoi,California(2026–present)"
+    },
+    {
+      "source": "jackie-sherrill",
+      "target": "mike-sherman",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Jackie Sherrill,Pittsburgh(graduate assistant 1981-82)"
+    },
+    {
+      "source": "wally-english",
+      "target": "mike-sherman",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Wally English,Tulane(offensive line coach 1983-84)"
+    },
+    {
+      "source": "rick-e-carter",
+      "target": "mike-sherman",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Rick E. CarterandMark Duffner,Holy Cross(offensive line coach 1985-87, offensive coordinator 1988)"
+    },
+    {
+      "source": "rc-slocum",
+      "target": "mike-sherman",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "R.C. Slocum,Texas A&M(offensive line coach 1989-93, 1995-96, offensive coordinator 1996-97)"
+    },
+    {
+      "source": "terry-donahue",
+      "target": "mike-sherman",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Terry Donahue,UCLA, (offensive line coach 1995)"
+    },
+    {
+      "source": "mike-holmgren",
+      "target": "mike-sherman",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Mike Holmgren,Green Bay Packers(tight ends coach 1997-98),Seattle Seahawks(offensive coordinator 1999)"
+    },
+    {
+      "source": "gary-kubiak",
+      "target": "mike-sherman",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Gary Kubiak,Houston Texans(offensive coordinator 2007)"
+    },
+    {
+      "source": "joe-philbin",
+      "target": "mike-sherman",
+      "type": "coaching_tree",
+      "years": "2012-2013",
+      "context": "Joe Philbin,Miami Dolphins(offensive coordinator 2012-2013)"
+    },
+    {
+      "source": "mike-sherman",
+      "target": "sylvester-croom",
+      "type": "coaching_tree",
+      "years": "2004-2008",
+      "context": "Sylvester Croom,Mississippi State(2004-2008)"
+    },
+    {
+      "source": "mike-sherman",
+      "target": "jeff-jagodzinski",
+      "type": "coaching_tree",
+      "years": "2007-2008",
+      "context": "Jeff Jagodzinski,Boston College(2007-2008)"
+    },
+    {
+      "source": "mike-sherman",
+      "target": "trent-miles",
+      "type": "coaching_tree",
+      "years": "2008-2012",
+      "context": "Trent Miles,Indiana State(2008-2012),Georgia State(2013-2016)"
+    },
+    {
+      "source": "mike-sherman",
+      "target": "bo-pelini",
+      "type": "coaching_tree",
+      "years": "2008-2014",
+      "context": "Bo Pelini,Nebraska(2008-2014),Youngstown State(2015-2019)"
+    },
+    {
+      "source": "mike-sherman",
+      "target": "james-franklin",
+      "type": "coaching_tree",
+      "years": "2011-2013",
+      "context": "James Franklin,Vanderbilt(2011-2013),Penn State(2014-2025)"
+    },
+    {
+      "source": "mike-sherman",
+      "target": "tim-deruyter",
+      "type": "coaching_tree",
+      "years": "2012-2016",
+      "context": "Tim DeRuyter,Fresno State(2012-2016)"
+    },
+    {
+      "source": "mike-sherman",
+      "target": "john-bonamego",
+      "type": "coaching_tree",
+      "years": "2015-2018",
+      "context": "John Bonamego,Central Michigan(2015-2018)"
+    },
+    {
+      "source": "mike-sherman",
+      "target": "charlie-jackson",
+      "type": "coaching_tree",
+      "years": "2019-2021",
+      "context": "Charlie Jackson,Kentucky State(2019-2021)"
+    },
+    {
+      "source": "mike-sherman",
+      "target": "stan-drayton",
+      "type": "coaching_tree",
+      "years": "2022-2024",
+      "context": "Stan Drayton,Temple(2022-2024)"
+    },
+    {
+      "source": "dean-pryor",
+      "target": "bill-parcells",
+      "type": "coaching_tree",
+      "years": "1964",
+      "context": "Dean Pryor:Hastings(1964)"
+    },
+    {
+      "source": "george-karras",
+      "target": "bill-parcells",
+      "type": "coaching_tree",
+      "years": "1965",
+      "context": "George Karras:Wichita State(1965)"
+    },
+    {
+      "source": "tom-cahill",
+      "target": "bill-parcells",
+      "type": "coaching_tree",
+      "years": "1966-1969",
+      "context": "Tom Cahill:Army(1966–1969)"
+    },
+    {
+      "source": "bill-peterson",
+      "target": "bill-parcells",
+      "type": "coaching_tree",
+      "years": "1970",
+      "context": "Bill Peterson:Florida State(1970)"
+    },
+    {
+      "source": "larry-jones",
+      "target": "bill-parcells",
+      "type": "coaching_tree",
+      "years": "1971-1972",
+      "context": "Larry Jones: Florida State (1971–1972)"
+    },
+    {
+      "source": "steve-sloan",
+      "target": "bill-parcells",
+      "type": "coaching_tree",
+      "years": "1973-1974",
+      "context": "Steve Sloan:Vanderbilt(1973–1974),Texas Tech(1975–1977)"
+    },
+    {
+      "source": "ray-perkins",
+      "target": "bill-parcells",
+      "type": "coaching_tree",
+      "years": "1981-1982",
+      "context": "Ray Perkins:New York Giants(1979, 1981–1982)"
+    },
+    {
+      "source": "ron-erhardt",
+      "target": "bill-parcells",
+      "type": "coaching_tree",
+      "years": "1980",
+      "context": "Ron Erhardt:New England Patriots(1980)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "al-groh",
+      "type": "coaching_tree",
+      "years": "1981-1986",
+      "context": "Al Groh,Wake Forest University(1981–1986),New York Jets(2000),University of Virginia(2001–2009)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "bill-belichick",
+      "type": "coaching_tree",
+      "years": "1991-1995",
+      "context": "Bill Belichick:Cleveland Browns(1991–1995),New England Patriots(2000–2023),University of North Carolina(2025–present)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "ray-handley",
+      "type": "coaching_tree",
+      "years": "1991-1992",
+      "context": "Ray Handley,New York Giants(1991–1992)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "tom-coughlin",
+      "type": "coaching_tree",
+      "years": "1995-2002",
+      "context": "Tom Coughlin,Jacksonville Jaguars(1995–2002),New York Giants(2004–2015)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "walt-harris",
+      "type": "coaching_tree",
+      "years": "1997-2004",
+      "context": "Walt Harris:Pittsburgh Panthers(1997–2004),Stanford University(2005–2006)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "chris-palmer",
+      "type": "coaching_tree",
+      "years": "1999-2000",
+      "context": "Chris Palmer,Cleveland Browns(1999–2000)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "romeo-crennel",
+      "type": "coaching_tree",
+      "years": "2005-2008",
+      "context": "Romeo Crennel,Cleveland Browns(2005–2008),Kansas City Chiefs(2011, interim, 2012),Houston Texans(2020, interim)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "eric-mangini",
+      "type": "coaching_tree",
+      "years": "2006-2008",
+      "context": "Eric Mangini,New York Jets(2006–2008),Cleveland Browns(2009–2010)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "tony-sparano",
+      "type": "coaching_tree",
+      "years": "2008-2011",
+      "context": "Tony Sparano,Miami Dolphins(2008–2011),Oakland Raiders(2014, interim)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "charlie-weis",
+      "type": "coaching_tree",
+      "years": "2005-2009",
+      "context": "Charlie Weis,University of Notre Dame(2005–2009),University of Kansas(2012–2014)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "todd-haley",
+      "type": "coaching_tree",
+      "years": "2009-2011",
+      "context": "Todd Haley,Kansas City Chiefs(2009–2011)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "mike-macintyre",
+      "type": "coaching_tree",
+      "years": "2010-2012",
+      "context": "Mike MacIntyre,San Jose State University(2010–2012),University of Colorado(2013–2018),Florida International University(2022–present)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "mike-zimmer",
+      "type": "coaching_tree",
+      "years": "2014-2021",
+      "context": "Mike Zimmer:Minnesota Vikings(2014–2021)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "anthony-lynn",
+      "type": "coaching_tree",
+      "years": "2017-2020",
+      "context": "Anthony Lynn:Los Angeles Chargers(2017–2020)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "freddie-kitchens",
+      "type": "coaching_tree",
+      "years": "2019",
+      "context": "Freddie Kitchens:Cleveland Browns(2019)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "dan-campbell",
+      "type": "coaching_tree",
+      "years": "2021-present",
+      "context": "Dan Campbell: Miami Dolphins (2015, interim),Detroit Lions(2021–present)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "eddie-george",
+      "type": "coaching_tree",
+      "years": "2021-2024",
+      "context": "Eddie George:Tennessee State(2021–2024),Bowling Green(2025–present)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "aaron-glenn",
+      "type": "coaching_tree",
+      "years": "2025-present",
+      "context": "Aaron Glenn:New York Jets(2025–present)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "charley-armey",
+      "type": "coaching_tree",
+      "years": "2000-2005",
+      "context": "Charley Armey:St. Louis Rams(2000–2005)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "jerry-angelo",
+      "type": "coaching_tree",
+      "years": "2001-2011",
+      "context": "Jerry Angelo:Chicago Bears(2001–2011)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "mike-tannenbaum",
+      "type": "coaching_tree",
+      "years": "2006-2012",
+      "context": "Mike Tannenbaum: New York Jets (2006–2012)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "jeff-ireland",
+      "type": "coaching_tree",
+      "years": "2008-2013",
+      "context": "Jeff Ireland: Miami Dolphins (2008–2013)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "scott-pioli",
+      "type": "coaching_tree",
+      "years": "2009-2012",
+      "context": "Scott Pioli:Kansas City Chiefs(2009–2012)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "trent-baalke",
+      "type": "coaching_tree",
+      "years": "2011-2016",
+      "context": "Trent Baalke:San Francisco 49ers(2011–2016),Jacksonville Jaguars(2020, interim, 2021–2024)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "chris-grier",
+      "type": "coaching_tree",
+      "years": "2016-2025",
+      "context": "Chris Grier:Miami Dolphins(2016–2025)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "brian-gaine",
+      "type": "coaching_tree",
+      "years": "2018-2019",
+      "context": "Brian Gaine:Houston Texans(2018–2019)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "joe-schoen",
+      "type": "coaching_tree",
+      "years": "2022-present",
+      "context": "Joe Schoen:New York Giants(2022–present)"
+    },
+    {
+      "source": "lavell-edwards",
+      "target": "dave-kragthorpe",
+      "type": "coaching_tree",
+      "years": "1980-1982",
+      "context": "Dave Kragthorpe,Idaho State(1980–1982),Oregon State(1985–1990)"
+    },
+    {
+      "source": "lavell-edwards",
+      "target": "doug-scovil",
+      "type": "coaching_tree",
+      "years": "1981-1985",
+      "context": "Doug Scovil,San Diego State(1981–1985)"
+    },
+    {
+      "source": "lavell-edwards",
+      "target": "ted-tollner",
+      "type": "coaching_tree",
+      "years": "1983-1986",
+      "context": "Ted Tollner,USC(1983–1986),San Diego State(1994–2001)"
+    },
+    {
+      "source": "lavell-edwards",
+      "target": "mike-holmgren",
+      "type": "coaching_tree",
+      "years": "1992-1998",
+      "context": "Mike Holmgren,Green Bay Packers(1992–1998),Seattle Seahawks(1999–2008)"
+    },
+    {
+      "source": "lavell-edwards",
+      "target": "gary-crowton",
+      "type": "coaching_tree",
+      "years": "1996-1998",
+      "context": "Gary Crowton,Louisiana Tech(1996–1998),BYU(2001–2004)"
+    },
+    {
+      "source": "lavell-edwards",
+      "target": "tom-holmoe",
+      "type": "coaching_tree",
+      "years": "1997-2001",
+      "context": "Tom Holmoe,California(1997–2001)"
+    },
+    {
+      "source": "lavell-edwards",
+      "target": "charlie-stubbs",
+      "type": "coaching_tree",
+      "years": "2010-2014",
+      "context": "Charlie Stubbs,Nicholls State(2010–2014)"
+    },
+    {
+      "source": "lavell-edwards",
+      "target": "norm-chow",
+      "type": "coaching_tree",
+      "years": "2012-2015",
+      "context": "Norm Chow,Hawaii(2012–2015)"
+    },
+    {
+      "source": "lavell-edwards",
+      "target": "brian-billick",
+      "type": "coaching_tree",
+      "years": "1999-2007",
+      "context": "Brian Billick,Baltimore Ravens(1999–2007)(graduate assistant - 1978)"
+    },
+    {
+      "source": "lavell-edwards",
+      "target": "kyle-whittingham",
+      "type": "coaching_tree",
+      "years": "2005-2025",
+      "context": "Kyle Whittingham,Utah(2005–2025),Michigan(2026–present)(graduate assistant - 1985–1986)"
+    },
+    {
+      "source": "lavell-edwards",
+      "target": "steve-sarkisian",
+      "type": "coaching_tree",
+      "years": "2009-2013",
+      "context": "Steve Sarkisian,Washington(2009–2013),USC(2014–2015),Texas(2021–present)"
+    },
+    {
+      "source": "lavell-edwards",
+      "target": "kalani-sitake",
+      "type": "coaching_tree",
+      "years": "2016-present",
+      "context": "Kalani Sitake,BYU(2016–present)"
+    },
+    {
+      "source": "bill-walsh",
+      "target": "mike-holmgren",
+      "type": "coaching_tree",
+      "years": "1986-1988",
+      "context": "Bill Walsh,San Francisco 49ers(1986–1988)"
+    },
+    {
+      "source": "george-seifert",
+      "target": "mike-holmgren",
+      "type": "coaching_tree",
+      "years": "1989-1991",
+      "context": "George Seifert, San Francisco 49ers (1989–1991)"
+    },
+    {
+      "source": "mike-holmgren",
+      "target": "ray-rhodes",
+      "type": "coaching_tree",
+      "years": "1995-1998",
+      "context": "Ray Rhodes,Philadelphia Eagles(1995–1998),Green Bay Packers(1999)"
+    },
+    {
+      "source": "mike-holmgren",
+      "target": "steve-mariucci",
+      "type": "coaching_tree",
+      "years": "1997-2002",
+      "context": "Steve Mariucci,San Francisco 49ers(1997–2002),Detroit Lions(2003–2005)"
+    },
+    {
+      "source": "mike-holmgren",
+      "target": "jon-gruden",
+      "type": "coaching_tree",
+      "years": "1998-2001",
+      "context": "Jon Gruden,Oakland/Las Vegas Raiders(1998–2001, 2018–2021),Tampa Bay Buccaneers(2002–2008)"
+    },
+    {
+      "source": "mike-holmgren",
+      "target": "dick-jauron",
+      "type": "coaching_tree",
+      "years": "1999-2003",
+      "context": "Dick Jauron,Chicago Bears(1999–2003),Buffalo Bills(2006–2009)"
+    },
+    {
+      "source": "mike-holmgren",
+      "target": "marty-mornhinweg",
+      "type": "coaching_tree",
+      "years": "2001-2002",
+      "context": "Marty Mornhinweg, Detroit Lions (2001–2002)"
+    },
+    {
+      "source": "mike-holmgren",
+      "target": "jim-zorn",
+      "type": "coaching_tree",
+      "years": "2008-2009",
+      "context": "Jim Zorn,Washington Redskins(2008–2009)"
+    },
+    {
+      "source": "mike-holmgren",
+      "target": "jim-l-mora",
+      "type": "coaching_tree",
+      "years": "2004-2006",
+      "context": "Jim L. Mora,Atlanta Falcons(2004-2006)Seattle Seahawks(2009),UCLA(2012–2017),UConn(2022–present)"
+    },
+    {
+      "source": "mike-holmgren",
+      "target": "stump-mitchell",
+      "type": "coaching_tree",
+      "years": "2010-2012",
+      "context": "Stump Mitchell,Southern(2010–2012)"
+    },
+    {
+      "source": "doug-pederson",
+      "target": "john-defilippo",
+      "type": "coaching_tree",
+      "years": "2022-2023",
+      "context": "John DeFilippo,New Orleans Breakers(2022–2023),Memphis Showboats(2024)[111]"
+    },
+    {
+      "source": "doug-pederson",
+      "target": "gj-kinne",
+      "type": "coaching_tree",
+      "years": "2023-present",
+      "context": "G.J. Kinne,Incarnate Word(2022),Texas State(2023–present)[112]"
+    },
+    {
+      "source": "doug-pederson",
+      "target": "frank-reich",
+      "type": "coaching_tree",
+      "years": "2018-2022",
+      "context": "Frank Reich,Indianapolis Colts(2018–2022),Carolina Panthers(2023),Stanford(2025)[113]"
+    },
+    {
+      "source": "ron-rivera",
+      "target": "sean-mcdermott",
+      "type": "coaching_tree",
+      "years": "2011-2016",
+      "context": "Ron Rivera,Carolina Panthers(2011–2016)[73]"
+    },
+    {
+      "source": "david-culley",
+      "target": "sean-mcdermott",
+      "type": "coaching_tree",
+      "years": "2021",
+      "context": "David Culley,Houston Texans(2021)[74]"
+    },
+    {
+      "source": "brian-daboll",
+      "target": "sean-mcdermott",
+      "type": "coaching_tree",
+      "years": "2022-2025",
+      "context": "Brian Daboll,New York Giants(2022–2025)[75]"
+    },
+    {
+      "source": "joe-brady",
+      "target": "sean-mcdermott",
+      "type": "coaching_tree",
+      "years": "2026-present",
+      "context": "Joe Brady,Buffalo Bills(2026–present)[76]"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "mike-shanahan",
+      "type": "coaching_tree",
+      "years": "1975",
+      "context": "Barry Switzer,Oklahoma(1975)"
+    },
+    {
+      "source": "joe-salem",
+      "target": "mike-shanahan",
+      "type": "coaching_tree",
+      "years": "1976-1977",
+      "context": "Joe Salem,Northern Arizona(1976–1977),Minnesota(1979)"
+    },
+    {
+      "source": "darrell-mudra",
+      "target": "mike-shanahan",
+      "type": "coaching_tree",
+      "years": "1978",
+      "context": "Darrell Mudra,Eastern Illinois(1978)"
+    },
+    {
+      "source": "charley-pell",
+      "target": "mike-shanahan",
+      "type": "coaching_tree",
+      "years": "1980-1983",
+      "context": "Charley Pell,Florida(1980–1983)"
+    },
+    {
+      "source": "dan-reeves",
+      "target": "mike-shanahan",
+      "type": "coaching_tree",
+      "years": "1984-1987",
+      "context": "Dan Reeves,Denver Broncos(1984–1987, 1990–1991)"
+    },
+    {
+      "source": "george-seifert",
+      "target": "mike-shanahan",
+      "type": "coaching_tree",
+      "years": "1992-1994",
+      "context": "George Seifert,San Francisco 49ers(1992–1994)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "art-shell",
+      "type": "coaching_tree",
+      "years": "1989-1994",
+      "context": "Art Shell,Los Angeles Raiders(1989–1994),Oakland Raiders(2006)[47]"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "karl-dorrell",
+      "type": "coaching_tree",
+      "years": "2003-2007",
+      "context": "Karl Dorrell,UCLA(2003–2007),Colorado(2020–2022)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "j-d-brookhart",
+      "type": "coaching_tree",
+      "years": "2004-2009",
+      "context": "J. D. Brookhart,Akron(2004–2009)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "greg-robinson",
+      "type": "coaching_tree",
+      "years": "2005-2008",
+      "context": "Greg Robinson,Syracuse(2005–2008)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "gary-kubiak",
+      "type": "coaching_tree",
+      "years": "2006-2013",
+      "context": "Gary Kubiak,Houston Texans(2006–2013),Denver Broncos(2015–2016)[48]"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "tim-brewster",
+      "type": "coaching_tree",
+      "years": "2007-2010",
+      "context": "Tim Brewster,Minnesota(2007–2010)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "troy-calhoun",
+      "type": "coaching_tree",
+      "years": "2007-present",
+      "context": "Troy Calhoun,Air Force(2007–present)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "jon-embree",
+      "type": "coaching_tree",
+      "years": "2011-2012",
+      "context": "Jon Embree,Colorado(2011–2012)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "anthony-lynn",
+      "type": "coaching_tree",
+      "years": "2017-2020",
+      "context": "Anthony Lynn,Buffalo Bills(2016, interim),Los Angeles Chargers(2017–2020)[49]"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "jedd-fisch",
+      "type": "coaching_tree",
+      "years": "2021-2023",
+      "context": "Jedd Fisch,UCLA(2017, interim),Arizona(2021–2023),Washington(2024–present)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "charlie-jackson",
+      "type": "coaching_tree",
+      "years": "2019-2021",
+      "context": "Charlie Jackson,Kentucky State(2019–2021)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "lou-spanos",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Lou Spanos,UConn(2021, interim)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "mike-mcdaniel",
+      "type": "coaching_tree",
+      "years": "2022-2026",
+      "context": "Mike McDaniel,Miami Dolphins(2022–2026)[50]"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "raheem-morris",
+      "type": "coaching_tree",
+      "years": "2024-2025",
+      "context": "Raheem Morris,Atlanta Falcons(2024–2025)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "kliff-kingsbury",
+      "type": "coaching_tree",
+      "years": "2013-2018",
+      "context": "Kliff Kingsbury,Texas Tech(2013–2018),Arizona Cardinals(2019–2022)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "ed-mccaffrey",
+      "type": "coaching_tree",
+      "years": "2020-2022",
+      "context": "Ed McCaffrey,Northern Colorado(2020-2022)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "rick-smith",
+      "type": "coaching_tree",
+      "years": "2006-2017",
+      "context": "Rick Smith, Houston Texans (2006–2017)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "john-elway",
+      "type": "coaching_tree",
+      "years": "2011-2020",
+      "context": "John Elway, Denver Broncos (2011–2020)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "reggie-mckenzie",
+      "type": "coaching_tree",
+      "years": "2012-2018",
+      "context": "Reggie McKenzie, Oakland Raiders (2012–2018)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "dave-gettleman",
+      "type": "coaching_tree",
+      "years": "2013-2017",
+      "context": "Dave Gettleman,Carolina Panthers(2013–2017),New York Giants(2018–2021)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "john-lynch",
+      "type": "coaching_tree",
+      "years": "2017-present",
+      "context": "John Lynch, San Francisco 49ers (2017–present)"
+    },
+    {
+      "source": "al-groh",
+      "target": "todd-haley",
+      "type": "coaching_tree",
+      "years": "2000",
+      "context": "Al Groh,New York Jets(2000)"
+    },
+    {
+      "source": "dick-jauron",
+      "target": "todd-haley",
+      "type": "coaching_tree",
+      "years": "2001-2003",
+      "context": "Dick Jauron,Chicago Bears(2001–2003)"
+    },
+    {
+      "source": "ken-whisenhunt",
+      "target": "todd-haley",
+      "type": "coaching_tree",
+      "years": "2007-2008",
+      "context": "Ken Whisenhunt,Arizona Cardinals(2007–2008)"
+    },
+    {
+      "source": "mike-tomlin",
+      "target": "todd-haley",
+      "type": "coaching_tree",
+      "years": "2012-2017",
+      "context": "Mike Tomlin,Pittsburgh Steelers(2012–2017)"
+    },
+    {
+      "source": "hue-jackson",
+      "target": "todd-haley",
+      "type": "coaching_tree",
+      "years": "2018",
+      "context": "Hue Jackson,Cleveland Browns(2018)"
+    },
+    {
+      "source": "todd-haley",
+      "target": "romeo-crennel",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Romeo Crennel,Kansas City Chiefs(2011, interim; 2012)"
+    },
+    {
+      "source": "todd-haley",
+      "target": "charlie-weis",
+      "type": "coaching_tree",
+      "years": "2012-2014",
+      "context": "Charlie Weis,Kansas(2012–2014)"
+    },
+    {
+      "source": "todd-haley",
+      "target": "jim-zorn",
+      "type": "coaching_tree",
+      "years": "2020",
+      "context": "Jim Zorn,Seattle Dragons(2020)"
+    },
+    {
+      "source": "nick-saban",
+      "target": "l-c-cole",
+      "type": "coaching_tree",
+      "years": "1996-1999",
+      "context": "L. C. Cole:Tennessee State(1996–1999),Alabama State(2000–2002),Stillman(2009–2010)[576]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "dean-pees",
+      "type": "coaching_tree",
+      "years": "1998-2003",
+      "context": "Dean Pees:Kent State(1998–2003)[577]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "bobby-williams",
+      "type": "coaching_tree",
+      "years": "2000-2002",
+      "context": "Bobby Williams:Michigan State(2000–2002)[578]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "tom-amstutz",
+      "type": "coaching_tree",
+      "years": "2001-2008",
+      "context": "Tom Amstutz:Toledo(2001–2008)[579]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "mark-dantonio",
+      "type": "coaching_tree",
+      "years": "2004-2006",
+      "context": "Mark Dantonio:Cincinnati(2004–2006),Michigan State(2007–2019)[580]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "brad-salem",
+      "type": "coaching_tree",
+      "years": "2005-2009",
+      "context": "Brad Salem:Augustana (SD)(2005–2009)[581]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "scott-linehan",
+      "type": "coaching_tree",
+      "years": "2006-2008",
+      "context": "Scott Linehan:St. Louis Rams(2006–2008)[582]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "derek-dooley",
+      "type": "coaching_tree",
+      "years": "2007-2009",
+      "context": "Derek Dooley:Louisiana Tech(2007–2009),Tennessee(2010–2012)[583]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "greg-colby",
+      "type": "coaching_tree",
+      "years": "2008-2012",
+      "context": "Greg Colby:Millersville(2008–2012)[584][585]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "josh-mcdaniels",
+      "type": "coaching_tree",
+      "years": "2009-2010",
+      "context": "Josh McDaniels:Denver Broncos(2009–2010),Las Vegas Raiders(2022–2023)[586]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "mike-haywood",
+      "type": "coaching_tree",
+      "years": "2009-2010",
+      "context": "Mike Haywood:Miami (OH)(2009–2010),Texas Southern(2016–2018)[587]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "jimbo-fisher",
+      "type": "coaching_tree",
+      "years": "2010-2017",
+      "context": "Jimbo Fisher:Florida State(2010–2017),Texas A&M(2018–2023)[588]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "jason-garrett",
+      "type": "coaching_tree",
+      "years": "2011-2019",
+      "context": "Jason Garrett:Dallas Cowboys(2011–2019)[589]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "curt-cignetti",
+      "type": "coaching_tree",
+      "years": "2011-2016",
+      "context": "Curt Cignetti:IUP(2011–2016),Elon(2017–2018),James Madison(2019–2023),Indiana(2024–present)[590]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "pat-shurmur",
+      "type": "coaching_tree",
+      "years": "2011-2012",
+      "context": "Pat Shurmur:Cleveland Browns(2011–2012),New York Giants(2018–2019)[591]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "will-muschamp",
+      "type": "coaching_tree",
+      "years": "2011-2014",
+      "context": "Will Muschamp:Florida(2011–2014),South Carolina(2016–2020)[592]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "jim-mcelwain",
+      "type": "coaching_tree",
+      "years": "2012-2014",
+      "context": "Jim McElwain:Colorado State(2012–2014),Florida(2015–2017),Central Michigan(2019–2024)[593]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "brian-polian",
+      "type": "coaching_tree",
+      "years": "2013-2016",
+      "context": "Brian Polian:Nevada(2013–2016),John Carroll(2026–present)[594]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "jason-woodman",
+      "type": "coaching_tree",
+      "years": "2013-2023",
+      "context": "Jason Woodman:Fairmont State(2013–2023),Morehead State(2024–present)[595]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "adam-gase",
+      "type": "coaching_tree",
+      "years": "2016-2018",
+      "context": "Adam Gase:Miami Dolphins(2016–2018),New York Jets(2019–2020)[598]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "kirby-smart",
+      "type": "coaching_tree",
+      "years": "2016-present",
+      "context": "Kirby Smart:Georgia(2016–present)[599][600]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "major-applewhite",
+      "type": "coaching_tree",
+      "years": "2016-2018",
+      "context": "Major Applewhite:Houston(2016–2018),South Alabama(2024–present)[601]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "geoff-collins",
+      "type": "coaching_tree",
+      "years": "2017-2018",
+      "context": "Geoff Collins:Temple(2017–2018),Georgia Tech(2019–2022)[602]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "jeremy-pruitt",
+      "type": "coaching_tree",
+      "years": "2018-2020",
+      "context": "Jeremy Pruitt:Tennessee(2018–2020)[603]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "billy-napier",
+      "type": "coaching_tree",
+      "years": "2018-2021",
+      "context": "Billy Napier:Louisiana(2018–2021),Florida(2022–2025),James Madison(2026–present)[604]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "mel-tucker",
+      "type": "coaching_tree",
+      "years": "2020-2023",
+      "context": "Mel Tucker:Colorado(2019),Michigan State(2020–2023)[605]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "freddie-kitchens",
+      "type": "coaching_tree",
+      "years": "2019",
+      "context": "Freddie Kitchens:Cleveland Browns(2019)[606]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "joe-judge",
+      "type": "coaching_tree",
+      "years": "2020-2021",
+      "context": "Joe Judge:New York Giants(2020–2021)[607]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "charles-huff",
+      "type": "coaching_tree",
+      "years": "2021-2024",
+      "context": "Charles Huff:Marshall(2021–2024)[608]Southern Miss(2025),Memphis(2026–present)"
+    },
+    {
+      "source": "nick-saban",
+      "target": "dan-lanning",
+      "type": "coaching_tree",
+      "years": "2022-present",
+      "context": "Dan Lanning:Oregon(2022–present)[609]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "brian-daboll",
+      "type": "coaching_tree",
+      "years": "2022-2025",
+      "context": "Brian Daboll:New York Giants(2022–2025)[610][611]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "brent-key",
+      "type": "coaching_tree",
+      "years": "2023-present",
+      "context": "Brent Key:Georgia Tech(2023–present)[612][613]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "lance-taylor",
+      "type": "coaching_tree",
+      "years": "2023-present",
+      "context": "Lance Taylor:Western Michigan(2023–present)[614]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "jody-wright",
+      "type": "coaching_tree",
+      "years": "2024-present",
+      "context": "Jody Wright:Murray State(2024–present)[615]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "charles-kelly",
+      "type": "coaching_tree",
+      "years": "2025-present",
+      "context": "Charles Kelly:Jacksonville State(2025–present)[616]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "scott-cochran",
+      "type": "coaching_tree",
+      "years": "2025-present",
+      "context": "Scott Cochran:West Alabama(2025–present)[617]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "pete-golding",
+      "type": "coaching_tree",
+      "years": "2026-present",
+      "context": "Pete Golding:Ole Miss(2026–present)[618]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "alex-mortensen",
+      "type": "coaching_tree",
+      "years": "2026-present",
+      "context": "Alex Mortensen:UAB(2026–present)[619]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "tosh-lupoi",
+      "type": "coaching_tree",
+      "years": "2026-present",
+      "context": "Tosh Lupoi:California(2026–present)[620]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "mike-mularkey",
+      "type": "coaching_tree",
+      "years": "2016-2017",
+      "context": "Mike Mularkey:Jacksonville Jaguars(2012),Tennessee Titans(2016–2017)[621]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "mario-cristobal",
+      "type": "coaching_tree",
+      "years": "2017-2021",
+      "context": "Mario Cristobal:Oregon(2017–2021),Miami(2022–present)[622]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "lane-kiffin",
+      "type": "coaching_tree",
+      "years": "2017-2019",
+      "context": "Lane Kiffin:FAU(2017–2019),Ole Miss(2020–2025),LSU(2026–Present)[623][624][625]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "mike-locksley",
+      "type": "coaching_tree",
+      "years": "2019-present",
+      "context": "Mike Locksley:Maryland(2019–present)[626]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "steve-sarkisian",
+      "type": "coaching_tree",
+      "years": "2021-present",
+      "context": "Steve Sarkisian:Texas(2021–present)[627]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "butch-jones",
+      "type": "coaching_tree",
+      "years": "2021-present",
+      "context": "Butch Jones:Arkansas State(2021–present)[628]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "bill-obrien",
+      "type": "coaching_tree",
+      "years": "2024-present",
+      "context": "Bill O'Brien:Boston College(2024–present)[629]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "ron-cooper",
+      "type": "coaching_tree",
+      "years": "2022-present",
+      "context": "Ron Cooper: LIU (2022–present)[630]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "herb-haygood",
+      "type": "coaching_tree",
+      "years": "2020-2023",
+      "context": "Herb Haygood:Madonna(2020–2023)[631]"
+    },
+    {
+      "source": "nick-saban",
+      "target": "matt-eberflus",
+      "type": "coaching_tree",
+      "years": "2022-2024",
+      "context": "Matt Eberflus:Chicago Bears(2022–2024)[632][633]"
+    },
+    {
+      "source": "chester-caddas",
+      "target": "pete-carroll",
+      "type": "coaching_tree",
+      "years": "1973-1976",
+      "context": "Chester Caddas:University of the Pacific(1973–1976)[201]"
+    },
+    {
+      "source": "lou-holtz",
+      "target": "pete-carroll",
+      "type": "coaching_tree",
+      "years": "1977",
+      "context": "Lou Holtz: Arkansas Razorbacks (1977)[202]"
+    },
+    {
+      "source": "earle-bruce",
+      "target": "pete-carroll",
+      "type": "coaching_tree",
+      "years": "1978",
+      "context": "Earle Bruce: Iowa State Cyclones (1978), Ohio State Buckeyes (1979)[203]"
+    },
+    {
+      "source": "monte-kiffin",
+      "target": "pete-carroll",
+      "type": "coaching_tree",
+      "years": "1980-1982",
+      "context": "Monte Kiffin: NC State Wolfpack (1980–1982)[204]"
+    },
+    {
+      "source": "bob-cope",
+      "target": "pete-carroll",
+      "type": "coaching_tree",
+      "years": "1983",
+      "context": "Bob Cope: University of the Pacific (1983)[205]"
+    },
+    {
+      "source": "kay-stephenson",
+      "target": "pete-carroll",
+      "type": "coaching_tree",
+      "years": "1984",
+      "context": "Kay Stephenson: Buffalo Bills (1984)[206]"
+    },
+    {
+      "source": "bud-grant",
+      "target": "pete-carroll",
+      "type": "coaching_tree",
+      "years": "1985",
+      "context": "Bud Grant: Minnesota Vikings (1985)[207]"
+    },
+    {
+      "source": "jerry-burns",
+      "target": "pete-carroll",
+      "type": "coaching_tree",
+      "years": "1986-1989",
+      "context": "Jerry Burns: Minnesota Vikings (1986–1989)[208]"
+    },
+    {
+      "source": "bruce-coslet",
+      "target": "pete-carroll",
+      "type": "coaching_tree",
+      "years": "1990-1993",
+      "context": "Bruce Coslet: New York Jets (1990–1993)[209]"
+    },
+    {
+      "source": "george-seifert",
+      "target": "pete-carroll",
+      "type": "coaching_tree",
+      "years": "1995-1996",
+      "context": "George Seifert: San Francisco 49ers (1995–1996)[210]"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "walt-harris",
+      "type": "coaching_tree",
+      "years": "1997-2004",
+      "context": "Walt Harris,Pitt(1997–2004);Stanford(2005–2006)[211]"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "nick-holt",
+      "type": "coaching_tree",
+      "years": "2004-2005",
+      "context": "Nick Holt,Idaho(2004–2005)[212]"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "ed-orgeron",
+      "type": "coaching_tree",
+      "years": "2005-2007",
+      "context": "Ed Orgeron,Ole Miss(2005–2007);USC(2013, interim);LSU(2017–2021)[213]"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "greg-robinson",
+      "type": "coaching_tree",
+      "years": "2005-2008",
+      "context": "Greg Robinson,Syracuse(2005–2008)[214]"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "lane-kiffin",
+      "type": "coaching_tree",
+      "years": "2007-2008",
+      "context": "Lane Kiffin,Oakland Raiders(2007–2008);Tennessee(2009);USC(2010–2013);Florida Atlantic(2017–2019);Ole Miss(2020–2025);LSU(2026-present)[215]"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "sparky-woods",
+      "type": "coaching_tree",
+      "years": "2008-2012",
+      "context": "Sparky Woods,VMI(2008–2012)[216]"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "bo-pelini",
+      "type": "coaching_tree",
+      "years": "2008-2014",
+      "context": "Bo Pelini,Nebraska(2008–2014);Youngstown State(2015–2019)[217]"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "steve-sarkisian",
+      "type": "coaching_tree",
+      "years": "2009-2013",
+      "context": "Steve Sarkisian,Washington(2009–2013);USC(2014–2015);Texas(2021–present)[218]"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "dewayne-walker",
+      "type": "coaching_tree",
+      "years": "2009-2012",
+      "context": "DeWayne Walker,New Mexico State(2009–2012)[219]"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "norm-chow",
+      "type": "coaching_tree",
+      "years": "2012-2015",
+      "context": "Norm Chow,Hawaii(2012–2015)[220]"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "larry-kennan",
+      "type": "coaching_tree",
+      "years": "2012-2017",
+      "context": "Larry Kennan,Incarnate Word(2012–2017)[221]"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "gus-bradley",
+      "type": "coaching_tree",
+      "years": "2013-2016",
+      "context": "Gus Bradley,Jacksonville Jaguars(2013–2016)[222]"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "jedd-fisch",
+      "type": "coaching_tree",
+      "years": "2021-2023",
+      "context": "Jedd Fisch,Arizona(2021–2023),Washington(2024–present)[224]"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "robert-saleh",
+      "type": "coaching_tree",
+      "years": "2021-2024",
+      "context": "Robert Saleh,New York Jets(2021–2024),Tennessee Titans(2026-present)[225][226]"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "dave-canales",
+      "type": "coaching_tree",
+      "years": "2024-present",
+      "context": "Dave Canales,Carolina Panthers(2024–present)[227]"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "brian-schottenheimer",
+      "type": "coaching_tree",
+      "years": "2025-present",
+      "context": "Brian Schottenheimer,Dallas Cowboys(2025–present)"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "charley-armey",
+      "type": "coaching_tree",
+      "years": "2000-2005",
+      "context": "Charley Armey,St. Louis Rams(2000–2005)"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "john-idzik-jr",
+      "type": "coaching_tree",
+      "years": "2013-2014",
+      "context": "John Idzik Jr.,New York Jets(2013–2014)"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "jason-licht",
+      "type": "coaching_tree",
+      "years": "2014-present",
+      "context": "Jason Licht,Tampa Bay Buccaneers(2014–present)"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "scot-mccloughan",
+      "type": "coaching_tree",
+      "years": "2015-2016",
+      "context": "Scot McCloughan,Washington Redskins(2015–2016)"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "chris-grier",
+      "type": "coaching_tree",
+      "years": "2016-2025",
+      "context": "Chris Grier,Miami Dolphins(2016–2025)"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "scott-fitterer",
+      "type": "coaching_tree",
+      "years": "2021-2023",
+      "context": "Scott Fitterer,Carolina Panthers(2021–2023)"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "dan-morgan",
+      "type": "coaching_tree",
+      "years": "2024-present",
+      "context": "Dan Morgan,Carolina Panthers(2024–present)"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "aaron-glenn",
+      "type": "coaching_tree",
+      "years": "2025-present",
+      "context": "Aaron Glenn,New York Jets(2025–present)[228]"
+    },
+    {
+      "source": "james-franklin",
+      "target": "manny-diaz",
+      "type": "coaching_tree",
+      "years": "2024-present",
+      "context": "Manny Diaz–Duke(2024–present)[85]"
+    },
+    {
+      "source": "james-franklin",
+      "target": "charles-huff",
+      "type": "coaching_tree",
+      "years": "2021-2024",
+      "context": "Charles Huff–Marshall(2021–2024),Southern Miss(2025–present)[85]"
+    },
+    {
+      "source": "james-franklin",
+      "target": "joe-moorhead",
+      "type": "coaching_tree",
+      "years": "2018-2019",
+      "context": "Joe Moorhead–Mississippi State(2018–2019);Akron(2022–present)[85]"
+    },
+    {
+      "source": "james-franklin",
+      "target": "gerad-parker",
+      "type": "coaching_tree",
+      "years": "2024-present",
+      "context": "Gerad Parker–Troy(2024–present)[85]"
+    },
+    {
+      "source": "james-franklin",
+      "target": "brent-pry",
+      "type": "coaching_tree",
+      "years": "2022-2025",
+      "context": "Brent Pry–Virginia Tech(2022–2025)[85]"
+    },
+    {
+      "source": "james-franklin",
+      "target": "ricky-rahne",
+      "type": "coaching_tree",
+      "years": "2020-present",
+      "context": "Ricky Rahne–Old Dominion(2020–present)[85]"
+    },
+    {
+      "source": "james-franklin",
+      "target": "terry-smith",
+      "type": "coaching_tree",
+      "years": "2025-present",
+      "context": "Terry Smith–Penn State(2025–present)[86]"
+    },
+    {
+      "source": "ted-marchibroda",
+      "target": "bill-belichick",
+      "type": "coaching_tree",
+      "years": "1975",
+      "context": "Ted Marchibroda,Baltimore Colts(1975)[192]"
+    },
+    {
+      "source": "rick-forzano",
+      "target": "bill-belichick",
+      "type": "coaching_tree",
+      "years": "1976",
+      "context": "Rick Forzano,Detroit Lions(1976)[193]"
+    },
+    {
+      "source": "tommy-hudspeth",
+      "target": "bill-belichick",
+      "type": "coaching_tree",
+      "years": "1976-1977",
+      "context": "Tommy Hudspeth,Detroit Lions(1976–1977)[194]"
+    },
+    {
+      "source": "red-miller",
+      "target": "bill-belichick",
+      "type": "coaching_tree",
+      "years": "1978",
+      "context": "Red Miller,Denver Broncos(1978)[195]"
+    },
+    {
+      "source": "ray-perkins",
+      "target": "bill-belichick",
+      "type": "coaching_tree",
+      "years": "1979-1982",
+      "context": "Ray Perkins,New York Giants(1979–1982)[196]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "rod-dowhower",
+      "type": "coaching_tree",
+      "years": "1995-1996",
+      "context": "Rod Dowhower,Vanderbilt(1995–1996)[198]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "nick-saban",
+      "type": "coaching_tree",
+      "years": "1995-1999",
+      "context": "Nick Saban,Michigan State(1995–1999),LSU(2001–2004),Miami Dolphins(2005–2006),Alabama(2007–2023)[199]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "pat-hill",
+      "type": "coaching_tree",
+      "years": "1997-2011",
+      "context": "Pat Hill,Fresno State(1997–2011)[200]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "woody-widenhofer",
+      "type": "coaching_tree",
+      "years": "1997-2001",
+      "context": "Woody Widenhofer,Vanderbilt(1997–2001)[201]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "kirk-ferentz",
+      "type": "coaching_tree",
+      "years": "1999-present",
+      "context": "Kirk Ferentz,Iowa(1999–present)[202]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "al-groh",
+      "type": "coaching_tree",
+      "years": "2001-2009",
+      "context": "Al Groh,New York Jets(2000),Virginia(2001–2009)[203]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "romeo-crennel",
+      "type": "coaching_tree",
+      "years": "2005-2008",
+      "context": "Romeo Crennel,Cleveland Browns(2005–2008),Kansas City Chiefs(2011–2012)[179]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "charlie-weis",
+      "type": "coaching_tree",
+      "years": "2005-2009",
+      "context": "Charlie Weis,Notre Dame(2005–2009),Kansas(2012–2014)[204]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "eric-mangini",
+      "type": "coaching_tree",
+      "years": "2006-2008",
+      "context": "Eric Mangini,New York Jets(2006–2008),Cleveland Browns(2009–2010)[205]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "josh-mcdaniels",
+      "type": "coaching_tree",
+      "years": "2009-2010",
+      "context": "Josh McDaniels,Denver Broncos(2009–2010),Las Vegas Raiders(2022–2023)[206]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "jim-schwartz",
+      "type": "coaching_tree",
+      "years": "2009-2013",
+      "context": "Jim Schwartz,Detroit Lions(2009–2013)[207]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "dewayne-walker",
+      "type": "coaching_tree",
+      "years": "2009-2013",
+      "context": "DeWayne Walker,New Mexico State(2009–2013)[208]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "pete-mangurian",
+      "type": "coaching_tree",
+      "years": "2012-2014",
+      "context": "Pete Mangurian,Columbia(2012–2014)[209]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "bill-obrien",
+      "type": "coaching_tree",
+      "years": "2012-2013",
+      "context": "Bill O'Brien,Penn State(2012–2013),Houston Texans(2014–2020),Boston College(2024–present)[210]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "matt-patricia",
+      "type": "coaching_tree",
+      "years": "2018-2020",
+      "context": "Matt Patricia,Detroit Lions(2018–2020)[211]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "brian-flores",
+      "type": "coaching_tree",
+      "years": "2019-2021",
+      "context": "Brian Flores,Miami Dolphins(2019–2021)[212]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "joe-judge",
+      "type": "coaching_tree",
+      "years": "2020-2021",
+      "context": "Joe Judge,New York Giants, (2020–2021)[213]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "bret-bielema",
+      "type": "coaching_tree",
+      "years": "2021-present",
+      "context": "Bret Bielema,Illinois(2021–present)[214]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "jedd-fisch",
+      "type": "coaching_tree",
+      "years": "2021-2023",
+      "context": "Jedd Fisch,Arizona(2021–2023),Washington(2024–present)[215]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "brian-daboll",
+      "type": "coaching_tree",
+      "years": "2022-2025",
+      "context": "Brian Daboll,New York Giants(2022–2025)[216]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "jerod-mayo",
+      "type": "coaching_tree",
+      "years": "2024",
+      "context": "Jerod Mayo,New England Patriots(2024)[217]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "kliff-kingsbury",
+      "type": "coaching_tree",
+      "years": "2013-2018",
+      "context": "Kliff Kingsbury,Texas Tech(2013–2018),Arizona Cardinals(2019–2022)[218]"
+    },
+    {
+      "source": "bill-belichick",
+      "target": "mike-vrabel",
+      "type": "coaching_tree",
+      "years": "2018-2023",
+      "context": "Mike Vrabel,Tennessee Titans(2018–2023),New England Patriots(2025–present)[219]"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "frank-broyles",
+      "type": "coaching_tree",
+      "years": "1961-1965",
+      "context": "Frank Broyles:Arkansas(1961–1965)"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "jim-mackenzie",
+      "type": "coaching_tree",
+      "years": "1966",
+      "context": "Jim Mackenzie:Oklahoma(1966)"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "chuck-fairbanks",
+      "type": "coaching_tree",
+      "years": "1967-1972",
+      "context": "Chuck Fairbanks:Oklahoma(1967–1972)"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "tim-billings",
+      "type": "coaching_tree",
+      "years": "2000-2005",
+      "context": "Tim Billings:Southeast Missouri State(2000–2005),Southern Mississippi(2020)"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "john-blake",
+      "type": "coaching_tree",
+      "years": "1996-1998",
+      "context": "John Blake:Oklahoma(1996–1998)"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "mack-brown",
+      "type": "coaching_tree",
+      "years": "1985-1987",
+      "context": "Mack Brown:Appalachian State(1983),Tulane(1985–1987),North Carolina(1988–1997, 2019–2024),Texas(1998–2013)"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "dave-campo",
+      "type": "coaching_tree",
+      "years": "2000-2002",
+      "context": "Dave Campo:Dallas Cowboys(2000–2002)"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "jim-donnan",
+      "type": "coaching_tree",
+      "years": "1990-1995",
+      "context": "Jim Donnan:Marshall(1990–1995),Georgia(1996–2000)"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "donnie-duncan",
+      "type": "coaching_tree",
+      "years": "1979-1982",
+      "context": "Donnie Duncan:Iowa State(1979–1982)"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "gary-gibbs",
+      "type": "coaching_tree",
+      "years": "1989-1994",
+      "context": "Gary Gibbs:Oklahoma(1989–1994)"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "galen-hall",
+      "type": "coaching_tree",
+      "years": "1984-1989",
+      "context": "Galen Hall:Florida(1984–1989)"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "larry-lacewell",
+      "type": "coaching_tree",
+      "years": "1979-1989",
+      "context": "Larry Lacewell:Arkansas State(1979–1989)"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "brad-lambert",
+      "type": "coaching_tree",
+      "years": "2011-2018",
+      "context": "Brad Lambert:Charlotte(2011–2018)"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "wendell-mosley",
+      "type": "coaching_tree",
+      "years": "1976-1978",
+      "context": "Wendell Mosley:Texas Southern(1976–1978)"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "jerry-pettibone",
+      "type": "coaching_tree",
+      "years": "1985-1990",
+      "context": "Jerry Pettibone:Northern Illinois(1985–1990),Oregon State(1991–1996)"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "charlie-sadler",
+      "type": "coaching_tree",
+      "years": "1991-1995",
+      "context": "Charlie Sadler:Northern Illinois(1991–1995)"
+    },
+    {
+      "source": "barry-switzer",
+      "target": "mike-zimmer",
+      "type": "coaching_tree",
+      "years": "2014-2021",
+      "context": "Mike Zimmer:Minnesota Vikings(2014–2021)"
+    },
+    {
+      "source": "mike-tomlin",
+      "target": "bruce-arians",
+      "type": "coaching_tree",
+      "years": "2013-2017",
+      "context": "Bruce Arians,Arizona Cardinals(2013–2017),Tampa Bay Buccaneers(2019–2021)[112]"
+    },
+    {
+      "source": "mike-tomlin",
+      "target": "scottie-montgomery",
+      "type": "coaching_tree",
+      "years": "2016-2018",
+      "context": "Scottie Montgomery,East Carolina(2016–2018)[112]"
+    },
+    {
+      "source": "bud-grant",
+      "target": "marc-trestman",
+      "type": "coaching_tree",
+      "years": "2013-2014",
+      "context": "Marc Trestman,Chicago Bears(2013–2014),Canadian Football League,Montreal Alouettes(2008–2012),Toronto Argonauts(2017–2018)[46]"
+    },
+    {
+      "source": "bud-grant",
+      "target": "jerry-burns",
+      "type": "coaching_tree",
+      "years": "1986-1991",
+      "context": "Jerry Burns,Minnesota Vikings(1986–1991)[47]"
+    },
+    {
+      "source": "bud-grant",
+      "target": "buddy-ryan",
+      "type": "coaching_tree",
+      "years": "1986-1990",
+      "context": "Buddy Ryan,Philadelphia Eagles(1986–1990);Arizona Cardinals(1994–1995)[48]"
+    },
+    {
+      "source": "bud-grant",
+      "target": "les-steckel",
+      "type": "coaching_tree",
+      "years": "1984",
+      "context": "Les Steckel,Minnesota Vikings(1984)[6]"
+    },
+    {
+      "source": "bud-grant",
+      "target": "neill-armstrong",
+      "type": "coaching_tree",
+      "years": "1977-1981",
+      "context": "Neill Armstrong,Chicago Bears(1977–1981)[49]"
+    },
+    {
+      "source": "bud-grant",
+      "target": "jack-patera",
+      "type": "coaching_tree",
+      "years": "1976-1982",
+      "context": "Jack Patera,Seattle Seahawks(1976–1982)[50]"
+    },
+    {
+      "source": "bud-grant",
+      "target": "bob-hollway",
+      "type": "coaching_tree",
+      "years": "1971-1972",
+      "context": "Bob Hollway,St. Louis Cardinals(1971–1972)[51]"
+    },
+    {
+      "source": "ted-marchibroda",
+      "target": "bill-mcpeak",
+      "type": "coaching_tree",
+      "years": "1961-1965",
+      "context": "Bill McPeak:Washington Redskins(1961–1965)"
+    },
+    {
+      "source": "ted-marchibroda",
+      "target": "george-allen",
+      "type": "coaching_tree",
+      "years": "1966-1970",
+      "context": "George Allen:Los Angeles Rams(1966–1970),Washington Redskins(1971–1974)"
+    },
+    {
+      "source": "ted-marchibroda",
+      "target": "neill-armstrong",
+      "type": "coaching_tree",
+      "years": "1981",
+      "context": "Neill Armstrong:Chicago Bears(1981)"
+    },
+    {
+      "source": "ted-marchibroda",
+      "target": "monte-clark",
+      "type": "coaching_tree",
+      "years": "1982-1983",
+      "context": "Monte Clark:Detroit Lions(1982–1983)"
+    },
+    {
+      "source": "ted-marchibroda",
+      "target": "marion-campbell",
+      "type": "coaching_tree",
+      "years": "1984-1985",
+      "context": "Marion Campbell:Philadelphia Eagles(1984–1985)"
+    },
+    {
+      "source": "ted-marchibroda",
+      "target": "marv-levy",
+      "type": "coaching_tree",
+      "years": "1987-1991",
+      "context": "Marv Levy:Buffalo Bills(1987–1991)"
+    },
+    {
+      "source": "ted-marchibroda",
+      "target": "kirk-ferentz",
+      "type": "coaching_tree",
+      "years": "1999-present",
+      "context": "Kirk Ferentz:Iowa(1999–present)"
+    },
+    {
+      "source": "ted-marchibroda",
+      "target": "pat-hill",
+      "type": "coaching_tree",
+      "years": "1997-2011",
+      "context": "Pat Hill:Fresno State(1997–2011)"
+    },
+    {
+      "source": "ted-marchibroda",
+      "target": "lindy-infante",
+      "type": "coaching_tree",
+      "years": "1988-1991",
+      "context": "Lindy Infante:Green Bay Packers(1988–1991),Indianapolis Colts(1996–1997)"
+    },
+    {
+      "source": "ted-marchibroda",
+      "target": "marvin-lewis",
+      "type": "coaching_tree",
+      "years": "2003-2018",
+      "context": "Marvin Lewis:Cincinnati Bengals(2003–2018)"
+    },
+    {
+      "source": "ted-marchibroda",
+      "target": "eric-mangini",
+      "type": "coaching_tree",
+      "years": "2006-2008",
+      "context": "Eric Mangini:New York Jets(2006–2008),Cleveland Browns(2009–2010)"
+    },
+    {
+      "source": "ted-marchibroda",
+      "target": "jim-schwartz",
+      "type": "coaching_tree",
+      "years": "2009-2013",
+      "context": "Jim Schwartz:Detroit Lions(2009–2013)"
+    },
+    {
+      "source": "ted-marchibroda",
+      "target": "vince-tobin",
+      "type": "coaching_tree",
+      "years": "1996-2000",
+      "context": "Vince Tobin:Arizona Cardinals(1996–2000)"
+    },
+    {
+      "source": "ted-marchibroda",
+      "target": "ken-whisenhunt",
+      "type": "coaching_tree",
+      "years": "2007-2012",
+      "context": "Ken Whisenhunt:Arizona Cardinals(2007–2012),Tennessee Titans(2014–2015)"
+    },
+    {
+      "source": "joe-brady",
+      "target": "brian-daboll",
+      "type": "career_overlap",
+      "years": "2013-2014",
+      "context": "Both at William & Mary (2013-2014)"
+    },
+    {
+      "source": "zac-taylor",
+      "target": "dennis-allen",
+      "type": "career_overlap",
+      "years": "2008-2010",
+      "context": "Both at Texas A&M (2008-2010)"
+    },
+    {
+      "source": "zac-taylor",
+      "target": "gary-kubiak",
+      "type": "career_overlap",
+      "years": "2008-2011",
+      "context": "Both at Texas A&M (2008-2011)"
+    },
+    {
+      "source": "zac-taylor",
+      "target": "jerry-angelo",
+      "type": "career_overlap",
+      "years": "2007-2007",
+      "context": "Both at Tampa Bay Buccaneers (2007-2007)"
+    },
+    {
+      "source": "zac-taylor",
+      "target": "john-lynch",
+      "type": "career_overlap",
+      "years": "2007-2007",
+      "context": "Both at Tampa Bay Buccaneers (2007-2007)"
+    },
+    {
+      "source": "brian-schottenheimer",
+      "target": "jonathan-gannon",
+      "type": "career_overlap",
+      "years": "2010-2011",
+      "context": "Both at St. Louis Rams (2010-2011)"
+    },
+    {
+      "source": "dan-campbell",
+      "target": "joe-vitt",
+      "type": "career_overlap",
+      "years": "2018-2018",
+      "context": "Both at Miami Dolphins (2018-2018)"
+    },
+    {
+      "source": "dan-campbell",
+      "target": "anthony-lynn",
+      "type": "career_overlap",
+      "years": "1999-1999",
+      "context": "Both at New York Giants (1999-1999)"
+    },
+    {
+      "source": "dan-campbell",
+      "target": "ed-mccaffrey",
+      "type": "career_overlap",
+      "years": "1999-2002",
+      "context": "Both at New York Giants (1999-2002)"
+    },
+    {
+      "source": "dan-campbell",
+      "target": "jason-garrett",
+      "type": "career_overlap",
+      "years": "2011-2015",
+      "context": "Both at Miami Dolphins (2011-2015)"
+    },
+    {
+      "source": "dan-campbell",
+      "target": "scott-fitterer",
+      "type": "career_overlap",
+      "years": "1999-2000",
+      "context": "Both at New York Giants (1999-2000)"
+    },
+    {
+      "source": "demeco-ryans",
+      "target": "john-lynch",
+      "type": "career_overlap",
+      "years": "2018-2020",
+      "context": "Both at San Francisco 49ers (2018-2020)"
+    },
+    {
+      "source": "andy-reid",
+      "target": "tom-holmoe",
+      "type": "career_overlap",
+      "years": "1990-1991",
+      "context": "Both at BYU (1990-1991)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "ron-rivera",
+      "type": "career_overlap",
+      "years": "1987-1992",
+      "context": "Both at Chicago Bears (1987-1992)"
+    },
+    {
+      "source": "jim-harbaugh",
+      "target": "romeo-crennel",
+      "type": "career_overlap",
+      "years": "1994-1996",
+      "context": "Both at Western Kentucky (1994-1996)"
+    },
+    {
+      "source": "sean-mcvay",
+      "target": "bruce-arians",
+      "type": "career_overlap",
+      "years": "2022-2025",
+      "context": "Both at Tampa Bay Buccaneers (2022-2025)"
+    },
+    {
+      "source": "sean-mcvay",
+      "target": "jerry-angelo",
+      "type": "career_overlap",
+      "years": "2011-2011",
+      "context": "Both at Tampa Bay Buccaneers (2011-2011)"
+    },
+    {
+      "source": "kevin-oconnell",
+      "target": "aaron-glenn",
+      "type": "career_overlap",
+      "years": "2020-2020",
+      "context": "Both at Cleveland Browns (2020-2020)"
+    },
+    {
+      "source": "kevin-oconnell",
+      "target": "bill-parcells",
+      "type": "career_overlap",
+      "years": "2009-2010",
+      "context": "Both at New England Patriots (2009-2010)"
+    },
+    {
+      "source": "kevin-oconnell",
+      "target": "scott-pioli",
+      "type": "career_overlap",
+      "years": "2025-2025",
+      "context": "Both at Cleveland Browns (2025-2025)"
+    },
+    {
+      "source": "kevin-oconnell",
+      "target": "chris-grier",
+      "type": "career_overlap",
+      "years": "2009-2010",
+      "context": "Both at New England Patriots (2009-2010)"
+    },
+    {
+      "source": "kevin-oconnell",
+      "target": "jason-licht",
+      "type": "career_overlap",
+      "years": "2009-2010",
+      "context": "Both at New England Patriots (2009-2010)"
+    },
+    {
+      "source": "aaron-glenn",
+      "target": "todd-haley",
+      "type": "career_overlap",
+      "years": "1995-1996",
+      "context": "Both at New York Jets (1995-1996)"
+    },
+    {
+      "source": "aaron-glenn",
+      "target": "scott-pioli",
+      "type": "career_overlap",
+      "years": "2014-2015",
+      "context": "Both at Cleveland Browns (2014-2015)"
+    },
+    {
+      "source": "aaron-glenn",
+      "target": "brian-gaine",
+      "type": "career_overlap",
+      "years": "1996-1996",
+      "context": "Both at New York Jets (1996-1996)"
+    },
+    {
+      "source": "kyle-shanahan",
+      "target": "brian-callahan",
+      "type": "career_overlap",
+      "years": "2006-2007",
+      "context": "Both at UCLA (2006-2007)"
+    },
+    {
+      "source": "todd-bowles",
+      "target": "reggie-mckenzie",
+      "type": "career_overlap",
+      "years": "1995-1996",
+      "context": "Both at Green Bay Packers (1995-1996)"
+    },
+    {
+      "source": "todd-bowles",
+      "target": "scot-mccloughan",
+      "type": "career_overlap",
+      "years": "1995-1996",
+      "context": "Both at Green Bay Packers (1995-1996)"
+    },
+    {
+      "source": "todd-bowles",
+      "target": "ted-marchibroda",
+      "type": "career_overlap",
+      "years": "1987-1988",
+      "context": "Both at Washington Redskins (1987-1988)"
+    },
+    {
+      "source": "robert-saleh",
+      "target": "pat-shurmur",
+      "type": "career_overlap",
+      "years": "2006-2008",
+      "context": "Both at Michigan State (2006-2008)"
+    },
+    {
+      "source": "robert-saleh",
+      "target": "josh-mcdaniels",
+      "type": "career_overlap",
+      "years": "2006-2008",
+      "context": "Both at Michigan State (2006-2008)"
+    },
+    {
+      "source": "mike-sherman",
+      "target": "reggie-mckenzie",
+      "type": "career_overlap",
+      "years": "2001-2004",
+      "context": "Both at Green Bay Packers (2001-2004)"
+    },
+    {
+      "source": "mike-sherman",
+      "target": "scot-mccloughan",
+      "type": "career_overlap",
+      "years": "2001-2004",
+      "context": "Both at Green Bay Packers (2001-2004)"
+    },
+    {
+      "source": "ray-rhodes",
+      "target": "jeff-ulbrich",
+      "type": "career_overlap",
+      "years": "2001-2002",
+      "context": "Both at San Francisco 49ers (2001-2002)"
+    },
+    {
+      "source": "ray-rhodes",
+      "target": "tom-holmoe",
+      "type": "career_overlap",
+      "years": "1983-1989",
+      "context": "Both at San Francisco 49ers (1983-1989)"
+    },
+    {
+      "source": "ray-rhodes",
+      "target": "bill-walsh",
+      "type": "career_overlap",
+      "years": "1981-1982",
+      "context": "Both at San Francisco 49ers (1981-1982)"
+    },
+    {
+      "source": "ray-rhodes",
+      "target": "mike-mularkey",
+      "type": "career_overlap",
+      "years": "1983-1988",
+      "context": "Both at San Francisco 49ers (1983-1988)"
+    },
+    {
+      "source": "ray-rhodes",
+      "target": "bruce-coslet",
+      "type": "career_overlap",
+      "years": "1981-1984",
+      "context": "Both at San Francisco 49ers (1981-1984)"
+    },
+    {
+      "source": "bill-parcells",
+      "target": "jason-licht",
+      "type": "career_overlap",
+      "years": "2009-2010",
+      "context": "Both at New England Patriots (2009-2010)"
+    },
+    {
+      "source": "doug-marrone",
+      "target": "terry-robiskie",
+      "type": "career_overlap",
+      "years": "1991-1992",
+      "context": "Both at Los Angeles Raiders (1991-1992)"
+    },
+    {
+      "source": "doug-marrone",
+      "target": "art-shell",
+      "type": "career_overlap",
+      "years": "1991-1992",
+      "context": "Both at Los Angeles Raiders (1991-1992)"
+    },
+    {
+      "source": "dennis-allen",
+      "target": "gary-kubiak",
+      "type": "career_overlap",
+      "years": "1996-1999",
+      "context": "Both at Texas A&M (1996-1999)"
+    },
+    {
+      "source": "dennis-allen",
+      "target": "dick-jauron",
+      "type": "career_overlap",
+      "years": "1996-1996",
+      "context": "Both at Buffalo Bills (1996-1996)"
+    },
+    {
+      "source": "dennis-allen",
+      "target": "dave-gettleman",
+      "type": "career_overlap",
+      "years": "1996-1996",
+      "context": "Both at Buffalo Bills (1996-1996)"
+    },
+    {
+      "source": "joe-vitt",
+      "target": "jason-garrett",
+      "type": "career_overlap",
+      "years": "2018-2018",
+      "context": "Both at Miami Dolphins (2018-2018)"
+    },
+    {
+      "source": "mike-neu",
+      "target": "ryan-pace",
+      "type": "career_overlap",
+      "years": "2009-2011",
+      "context": "Both at New Orleans Saints (2009-2011)"
+    },
+    {
+      "source": "mike-neu",
+      "target": "terry-fontenot",
+      "type": "career_overlap",
+      "years": "2009-2011",
+      "context": "Both at New Orleans Saints (2009-2011)"
+    },
+    {
+      "source": "ryan-pace",
+      "target": "terry-fontenot",
+      "type": "career_overlap",
+      "years": "2003-2003",
+      "context": "Both at New Orleans Saints (2003-2003)"
+    },
+    {
+      "source": "ryan-pace",
+      "target": "jason-garrett",
+      "type": "career_overlap",
+      "years": "2002-2003",
+      "context": "Both at New Orleans Saints (2002-2003)"
+    },
+    {
+      "source": "terry-fontenot",
+      "target": "jason-garrett",
+      "type": "career_overlap",
+      "years": "2003-2003",
+      "context": "Both at New Orleans Saints (2003-2003)"
+    },
+    {
+      "source": "darren-mougey",
+      "target": "michael-vick",
+      "type": "career_overlap",
+      "years": "2009-2009",
+      "context": "Both at Atlanta Falcons (2009-2009)"
+    },
+    {
+      "source": "darren-mougey",
+      "target": "david-shaw",
+      "type": "career_overlap",
+      "years": "2024-2024",
+      "context": "Both at Denver Broncos (2024-2024)"
+    },
+    {
+      "source": "darren-mougey",
+      "target": "thomas-brown",
+      "type": "career_overlap",
+      "years": "2009-2009",
+      "context": "Both at Atlanta Falcons (2009-2009)"
+    },
+    {
+      "source": "darren-mougey",
+      "target": "gary-kubiak",
+      "type": "career_overlap",
+      "years": "2017-2018",
+      "context": "Both at Denver Broncos (2017-2018)"
+    },
+    {
+      "source": "darren-mougey",
+      "target": "anthony-lynn",
+      "type": "career_overlap",
+      "years": "2014-2014",
+      "context": "Both at Denver Broncos (2014-2014)"
+    },
+    {
+      "source": "darren-mougey",
+      "target": "mike-mcdaniel",
+      "type": "career_overlap",
+      "years": "2015-2016",
+      "context": "Both at Denver Broncos (2015-2016)"
+    },
+    {
+      "source": "darren-mougey",
+      "target": "rick-smith",
+      "type": "career_overlap",
+      "years": "2014-2017",
+      "context": "Both at Denver Broncos (2014-2017)"
+    },
+    {
+      "source": "darren-mougey",
+      "target": "john-elway",
+      "type": "career_overlap",
+      "years": "2014-2019",
+      "context": "Both at Denver Broncos (2014-2019)"
+    },
+    {
+      "source": "mike-holmgren",
+      "target": "pete-carroll",
+      "type": "career_overlap",
+      "years": "2010-2012",
+      "context": "Both at Seattle Seahawks (2010-2012)"
+    },
+    {
+      "source": "mike-holmgren",
+      "target": "jeff-ulbrich",
+      "type": "career_overlap",
+      "years": "2010-2011",
+      "context": "Both at Seattle Seahawks (2010-2011)"
+    },
+    {
+      "source": "mike-holmgren",
+      "target": "dan-morgan",
+      "type": "career_overlap",
+      "years": "2011-2012",
+      "context": "Both at Seattle Seahawks (2011-2012)"
+    },
+    {
+      "source": "leslie-frazier",
+      "target": "ron-rivera",
+      "type": "career_overlap",
+      "years": "1984-1985",
+      "context": "Both at Chicago Bears (1984-1985)"
+    },
+    {
+      "source": "pat-shurmur",
+      "target": "josh-mcdaniels",
+      "type": "career_overlap",
+      "years": "2001-2001",
+      "context": "Both at Michigan State (2001-2001)"
+    },
+    {
+      "source": "doug-pederson",
+      "target": "jay-gruden",
+      "type": "career_overlap",
+      "years": "1993-1994",
+      "context": "Both at Miami Dolphins (1993-1994)"
+    },
+    {
+      "source": "doug-pederson",
+      "target": "jason-licht",
+      "type": "career_overlap",
+      "years": "1996-1996",
+      "context": "Both at Miami Dolphins (1996-1996)"
+    },
+    {
+      "source": "michael-vick",
+      "target": "thomas-brown",
+      "type": "career_overlap",
+      "years": "2009-2010",
+      "context": "Both at Atlanta Falcons (2009-2010)"
+    },
+    {
+      "source": "michael-vick",
+      "target": "dan-reeves",
+      "type": "career_overlap",
+      "years": "2001-2003",
+      "context": "Both at Atlanta Falcons (2001-2003)"
+    },
+    {
+      "source": "david-shaw",
+      "target": "gary-kubiak",
+      "type": "career_overlap",
+      "years": "2024-2024",
+      "context": "Both at Denver Broncos (2024-2024)"
+    },
+    {
+      "source": "david-shaw",
+      "target": "anthony-lynn",
+      "type": "career_overlap",
+      "years": "2024-2024",
+      "context": "Both at Denver Broncos (2024-2024)"
+    },
+    {
+      "source": "david-shaw",
+      "target": "mike-mcdaniel",
+      "type": "career_overlap",
+      "years": "2024-2024",
+      "context": "Both at Denver Broncos (2024-2024)"
+    },
+    {
+      "source": "willie-taggart",
+      "target": "romeo-crennel",
+      "type": "career_overlap",
+      "years": "2001-2002",
+      "context": "Both at Western Kentucky (2001-2002)"
+    },
+    {
+      "source": "jim-haslett",
+      "target": "frank-reich",
+      "type": "career_overlap",
+      "years": "1985-1985",
+      "context": "Both at Buffalo Bills (1985-1985)"
+    },
+    {
+      "source": "jim-haslett",
+      "target": "kay-stephenson",
+      "type": "career_overlap",
+      "years": "1983-1983",
+      "context": "Both at Buffalo Bills (1983-1983)"
+    },
+    {
+      "source": "jim-haslett",
+      "target": "john-idzik-jr",
+      "type": "career_overlap",
+      "years": "1991-1992",
+      "context": "Both at Buffalo (1991-1992)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "mike-mccoy",
+      "type": "career_overlap",
+      "years": "1995-1996",
+      "context": "Both at Denver Broncos (1995-1996)"
+    },
+    {
+      "source": "mike-shanahan",
+      "target": "herb-haygood",
+      "type": "career_overlap",
+      "years": "2002-2002",
+      "context": "Both at Denver Broncos (2002-2002)"
+    },
+    {
+      "source": "jay-gruden",
+      "target": "jonathan-gannon",
+      "type": "career_overlap",
+      "years": "2003-2005",
+      "context": "Both at Louisville (2003-2005)"
+    },
+    {
+      "source": "thomas-brown",
+      "target": "derek-dooley",
+      "type": "career_overlap",
+      "years": "2016-2017",
+      "context": "Both at Georgia (2016-2017)"
+    },
+    {
+      "source": "thomas-brown",
+      "target": "kirby-smart",
+      "type": "career_overlap",
+      "years": "2016-2018",
+      "context": "Both at Georgia (2016-2018)"
+    },
+    {
+      "source": "gary-kubiak",
+      "target": "anthony-lynn",
+      "type": "career_overlap",
+      "years": "2017-2018",
+      "context": "Both at Denver Broncos (2017-2018)"
+    },
+    {
+      "source": "gary-kubiak",
+      "target": "mike-mcdaniel",
+      "type": "career_overlap",
+      "years": "2017-2018",
+      "context": "Both at Denver Broncos (2017-2018)"
+    },
+    {
+      "source": "gary-kubiak",
+      "target": "rick-smith",
+      "type": "career_overlap",
+      "years": "2017-2017",
+      "context": "Both at Denver Broncos (2017-2017)"
+    },
+    {
+      "source": "gary-kubiak",
+      "target": "john-elway",
+      "type": "career_overlap",
+      "years": "1983-1991",
+      "context": "Both at Denver Broncos (1983-1991)"
+    },
+    {
+      "source": "todd-haley",
+      "target": "brian-gaine",
+      "type": "career_overlap",
+      "years": "1996-1996",
+      "context": "Both at New York Jets (1996-1996)"
+    },
+    {
+      "source": "mike-mccoy",
+      "target": "joe-schoen",
+      "type": "career_overlap",
+      "years": "2002-2007",
+      "context": "Both at Carolina Panthers (2002-2007)"
+    },
+    {
+      "source": "mike-mccoy",
+      "target": "john-elway",
+      "type": "career_overlap",
+      "years": "1995-1996",
+      "context": "Both at Denver Broncos (1995-1996)"
+    },
+    {
+      "source": "mike-mccoy",
+      "target": "dan-morgan",
+      "type": "career_overlap",
+      "years": "2001-2007",
+      "context": "Both at Carolina Panthers (2001-2007)"
+    },
+    {
+      "source": "anthony-lynn",
+      "target": "mike-mcdaniel",
+      "type": "career_overlap",
+      "years": "2006-2006",
+      "context": "Both at Denver Broncos (2006-2006)"
+    },
+    {
+      "source": "anthony-lynn",
+      "target": "ed-mccaffrey",
+      "type": "career_overlap",
+      "years": "1995-1996",
+      "context": "Both at New York Giants (1995-1996)"
+    },
+    {
+      "source": "anthony-lynn",
+      "target": "rick-smith",
+      "type": "career_overlap",
+      "years": "2000-2002",
+      "context": "Both at Denver Broncos (2000-2002)"
+    },
+    {
+      "source": "anthony-lynn",
+      "target": "john-elway",
+      "type": "career_overlap",
+      "years": "2011-2014",
+      "context": "Both at Denver Broncos (2011-2014)"
+    },
+    {
+      "source": "anthony-lynn",
+      "target": "herb-haygood",
+      "type": "career_overlap",
+      "years": "2002-2002",
+      "context": "Both at Denver Broncos (2002-2002)"
+    },
+    {
+      "source": "anthony-lynn",
+      "target": "scott-fitterer",
+      "type": "career_overlap",
+      "years": "1998-1999",
+      "context": "Both at New York Giants (1998-1999)"
+    },
+    {
+      "source": "frank-reich",
+      "target": "dick-jauron",
+      "type": "career_overlap",
+      "years": "1986-1994",
+      "context": "Both at Buffalo Bills (1986-1994)"
+    },
+    {
+      "source": "frank-reich",
+      "target": "dave-gettleman",
+      "type": "career_overlap",
+      "years": "1987-1993",
+      "context": "Both at Buffalo Bills (1987-1993)"
+    },
+    {
+      "source": "mike-mcdaniel",
+      "target": "rick-smith",
+      "type": "career_overlap",
+      "years": "2006-2008",
+      "context": "Both at Denver Broncos (2006-2008)"
+    },
+    {
+      "source": "mike-mcdaniel",
+      "target": "john-elway",
+      "type": "career_overlap",
+      "years": "2011-2013",
+      "context": "Both at Denver Broncos (2011-2013)"
+    },
+    {
+      "source": "doug-williams",
+      "target": "ray-perkins",
+      "type": "career_overlap",
+      "years": "1987-1989",
+      "context": "Both at Tampa Bay Buccaneers (1987-1989)"
+    },
+    {
+      "source": "doug-williams",
+      "target": "jerry-angelo",
+      "type": "career_overlap",
+      "years": "1987-1989",
+      "context": "Both at Tampa Bay Buccaneers (1987-1989)"
+    },
+    {
+      "source": "terry-robiskie",
+      "target": "art-shell",
+      "type": "career_overlap",
+      "years": "1983-1984",
+      "context": "Both at Los Angeles Raiders (1983-1984)"
+    },
+    {
+      "source": "terry-robiskie",
+      "target": "reggie-mckenzie",
+      "type": "career_overlap",
+      "years": "1985-1987",
+      "context": "Both at Los Angeles Raiders (1985-1987)"
+    },
+    {
+      "source": "wade-phillips",
+      "target": "kliff-kingsbury",
+      "type": "career_overlap",
+      "years": "2008-2009",
+      "context": "Both at Houston (2008-2009)"
+    },
+    {
+      "source": "eric-mangini",
+      "target": "scott-pioli",
+      "type": "career_overlap",
+      "years": "1997-1999",
+      "context": "Both at Cleveland Browns (1997-1999)"
+    },
+    {
+      "source": "pete-carroll",
+      "target": "jeff-ulbrich",
+      "type": "career_overlap",
+      "years": "2010-2011",
+      "context": "Both at Seattle Seahawks (2010-2011)"
+    },
+    {
+      "source": "jeff-ulbrich",
+      "target": "bill-walsh",
+      "type": "career_overlap",
+      "years": "2000-2000",
+      "context": "Both at San Francisco 49ers (2000-2000)"
+    },
+    {
+      "source": "jeff-ulbrich",
+      "target": "bruce-coslet",
+      "type": "career_overlap",
+      "years": "2000-2000",
+      "context": "Both at San Francisco 49ers (2000-2000)"
+    },
+    {
+      "source": "jeff-ulbrich",
+      "target": "dan-morgan",
+      "type": "career_overlap",
+      "years": "2011-2011",
+      "context": "Both at Seattle Seahawks (2011-2011)"
+    },
+    {
+      "source": "sylvester-croom",
+      "target": "steve-sloan",
+      "type": "career_overlap",
+      "years": "1977-1977",
+      "context": "Both at Alabama (1977-1977)"
+    },
+    {
+      "source": "sylvester-croom",
+      "target": "jeremy-pruitt",
+      "type": "career_overlap",
+      "years": "2001-2003",
+      "context": "Both at Alabama (2001-2003)"
+    },
+    {
+      "source": "steve-sloan",
+      "target": "jeremy-pruitt",
+      "type": "career_overlap",
+      "years": "2001-2002",
+      "context": "Both at Alabama (2001-2002)"
+    },
+    {
+      "source": "ray-perkins",
+      "target": "jerry-angelo",
+      "type": "career_overlap",
+      "years": "1987-1990",
+      "context": "Both at Tampa Bay Buccaneers (1987-1990)"
+    },
+    {
+      "source": "tom-coughlin",
+      "target": "scott-pioli",
+      "type": "career_overlap",
+      "years": "1988-1989",
+      "context": "Both at Syracuse (1988-1989)"
+    },
+    {
+      "source": "jerry-angelo",
+      "target": "john-lynch",
+      "type": "career_overlap",
+      "years": "1993-2000",
+      "context": "Both at Tampa Bay Buccaneers (1993-2000)"
+    },
+    {
+      "source": "jerry-angelo",
+      "target": "john-idzik-jr",
+      "type": "career_overlap",
+      "years": "1996-2000",
+      "context": "Both at Tampa Bay Buccaneers (1996-2000)"
+    },
+    {
+      "source": "scott-pioli",
+      "target": "jim-schwartz",
+      "type": "career_overlap",
+      "years": "1993-1995",
+      "context": "Both at Cleveland Browns (1993-1995)"
+    },
+    {
+      "source": "trent-baalke",
+      "target": "gus-bradley",
+      "type": "career_overlap",
+      "years": "1990-1991",
+      "context": "Both at North Dakota State (1990-1991)"
+    },
+    {
+      "source": "chris-grier",
+      "target": "kliff-kingsbury",
+      "type": "career_overlap",
+      "years": "2004-2005",
+      "context": "Both at New England Patriots (2004-2005)"
+    },
+    {
+      "source": "chris-grier",
+      "target": "jason-licht",
+      "type": "career_overlap",
+      "years": "2003-2005",
+      "context": "Both at New England Patriots (2003-2005)"
+    },
+    {
+      "source": "joe-schoen",
+      "target": "dan-morgan",
+      "type": "career_overlap",
+      "years": "2002-2007",
+      "context": "Both at Carolina Panthers (2002-2007)"
+    },
+    {
+      "source": "tom-holmoe",
+      "target": "bill-walsh",
+      "type": "career_overlap",
+      "years": "1983-1987",
+      "context": "Both at San Francisco 49ers (1983-1987)"
+    },
+    {
+      "source": "tom-holmoe",
+      "target": "mike-mularkey",
+      "type": "career_overlap",
+      "years": "1983-1988",
+      "context": "Both at San Francisco 49ers (1983-1988)"
+    },
+    {
+      "source": "tom-holmoe",
+      "target": "bruce-coslet",
+      "type": "career_overlap",
+      "years": "1983-1984",
+      "context": "Both at San Francisco 49ers (1983-1984)"
+    },
+    {
+      "source": "bill-walsh",
+      "target": "mike-mularkey",
+      "type": "career_overlap",
+      "years": "1983-1987",
+      "context": "Both at San Francisco 49ers (1983-1987)"
+    },
+    {
+      "source": "bill-walsh",
+      "target": "bruce-coslet",
+      "type": "career_overlap",
+      "years": "1981-1982",
+      "context": "Both at San Francisco 49ers (1981-1982)"
+    },
+    {
+      "source": "dick-jauron",
+      "target": "dave-gettleman",
+      "type": "career_overlap",
+      "years": "1987-1993",
+      "context": "Both at Buffalo Bills (1987-1993)"
+    },
+    {
+      "source": "jim-zorn",
+      "target": "dan-reeves",
+      "type": "career_overlap",
+      "years": "1976-1980",
+      "context": "Both at Dallas Cowboys (1976-1980)"
+    },
+    {
+      "source": "art-shell",
+      "target": "reggie-mckenzie",
+      "type": "career_overlap",
+      "years": "1985-1988",
+      "context": "Both at Los Angeles Raiders (1985-1988)"
+    },
+    {
+      "source": "kliff-kingsbury",
+      "target": "jason-licht",
+      "type": "career_overlap",
+      "years": "2004-2005",
+      "context": "Both at New England Patriots (2004-2005)"
+    },
+    {
+      "source": "ed-mccaffrey",
+      "target": "scott-fitterer",
+      "type": "career_overlap",
+      "years": "1998-2000",
+      "context": "Both at New York Giants (1998-2000)"
+    },
+    {
+      "source": "rick-smith",
+      "target": "john-elway",
+      "type": "career_overlap",
+      "years": "2011-2017",
+      "context": "Both at Denver Broncos (2011-2017)"
+    },
+    {
+      "source": "rick-smith",
+      "target": "herb-haygood",
+      "type": "career_overlap",
+      "years": "2002-2002",
+      "context": "Both at Denver Broncos (2002-2002)"
+    },
+    {
+      "source": "reggie-mckenzie",
+      "target": "scot-mccloughan",
+      "type": "career_overlap",
+      "years": "1994-1996",
+      "context": "Both at Green Bay Packers (1994-1996)"
+    },
+    {
+      "source": "john-lynch",
+      "target": "john-idzik-jr",
+      "type": "career_overlap",
+      "years": "1996-2001",
+      "context": "Both at Tampa Bay Buccaneers (1996-2001)"
+    },
+    {
+      "source": "derek-dooley",
+      "target": "kirby-smart",
+      "type": "career_overlap",
+      "years": "2002-2002",
+      "context": "Both at Georgia (2002-2002)"
+    },
+    {
+      "source": "mike-mularkey",
+      "target": "bruce-coslet",
+      "type": "career_overlap",
+      "years": "1983-1984",
+      "context": "Both at San Francisco 49ers (1983-1984)"
+    },
+    {
+      "source": "gary-kubiak",
+      "target": "klint-kubiak",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Son and coaching protege of Gary Kubiak"
+    },
+    {
+      "source": "mike-macdonald",
+      "target": "klint-kubiak",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Klint Kubiak worked under Mike Macdonald"
+    },
+    {
+      "source": "mike-zimmer",
+      "target": "klint-kubiak",
+      "type": "coaching_tree",
+      "years": "2014-2016",
+      "context": "Klint Kubiak, Minnesota Vikings (2014-2016)"
+    },
+    {
+      "source": "dennis-allen",
+      "target": "klint-kubiak",
+      "type": "coaching_tree",
+      "years": "2022-2023",
+      "context": "Klint Kubiak, New Orleans Saints (2022-2023)"
+    },
+    {
+      "source": "kyle-shanahan",
+      "target": "klint-kubiak",
+      "type": "coaching_tree",
+      "years": "2021",
+      "context": "Klint Kubiak, San Francisco 49ers (2021)"
+    },
+    {
+      "source": "joe-philbin",
+      "target": "ben-johnson",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Worked under Joe Philbin with the Dolphins"
+    },
+    {
+      "source": "matt-patricia",
+      "target": "ben-johnson",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Worked under Matt Patricia with the Lions"
+    },
+    {
+      "source": "dan-campbell",
+      "target": "ben-johnson",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Worked under Dan Campbell with the Lions"
+    },
+    {
+      "source": "adam-gase",
+      "target": "ben-johnson",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Worked under Adam Gase with the Dolphins"
+    },
+    {
+      "source": "matt-lafleur",
+      "target": "jeff-hafley",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Worked together in the NFL"
+    },
+    {
+      "source": "greg-schiano",
+      "target": "jeff-hafley",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Worked under Greg Schiano"
+    },
+    {
+      "source": "mike-ditka",
+      "target": "jim-harbaugh",
+      "type": "coaching_tree",
+      "years": "1987-1993",
+      "context": "Jim Harbaugh played for Mike Ditka with the Chicago Bears (1987–1993)"
+    },
+    {
+      "source": "ted-marchibroda",
+      "target": "jim-harbaugh",
+      "type": "coaching_tree",
+      "years": "1994-1997",
+      "context": "Jim Harbaugh played for Ted Marchibroda with the Indianapolis Colts (1994–1997)"
+    },
+    {
+      "source": "brian-billick",
+      "target": "jim-harbaugh",
+      "type": "coaching_tree",
+      "years": "1998",
+      "context": "Jim Harbaugh played for Brian Billick with the Baltimore Ravens (1998)"
+    },
+    {
+      "source": "george-seifert",
+      "target": "jim-harbaugh",
+      "type": "coaching_tree",
+      "years": "2001",
+      "context": "Jim Harbaugh played for George Seifert with the Carolina Panthers (2001)"
+    },
+    {
+      "source": "bill-callahan",
+      "target": "jim-harbaugh",
+      "type": "coaching_tree",
+      "years": "2002-2003",
+      "context": "Jim Harbaugh coached under Bill Callahan with the Oakland Raiders (2002–2003)"
+    },
+    {
+      "source": "mike-zimmer",
+      "target": "kevin-stefanski",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Worked under Mike Zimmer with the Vikings"
+    },
+    {
+      "source": "gary-kubiak",
+      "target": "kevin-stefanski",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Worked under Gary Kubiak with the Vikings"
+    },
+    {
+      "source": "kyle-shanahan",
+      "target": "matt-lafleur",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Worked under Kyle Shanahan"
+    },
+    {
+      "source": "sean-mcvay",
+      "target": "matt-lafleur",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Worked alongside Sean McVay with the Rams"
+    },
+    {
+      "source": "kyle-shanahan",
+      "target": "mike-lafleur",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Worked under Kyle Shanahan with the 49ers"
+    },
+    {
+      "source": "bill-walsh",
+      "target": "mike-mccarthy",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Worked under Bill Walsh"
+    },
+    {
+      "source": "marty-schottenheimer",
+      "target": "mike-mccarthy",
+      "type": "coaching_tree",
+      "years": null,
+      "context": "Worked under Marty Schottenheimer with the Chiefs"
+    }
+  ],
+  "team_colors": {
+    "Arizona Cardinals": "#97233F",
+    "Atlanta Falcons": "#A71930",
+    "Baltimore Ravens": "#241773",
+    "Buffalo Bills": "#00338D",
+    "Carolina Panthers": "#0085CA",
+    "Chicago Bears": "#0B162A",
+    "Cincinnati Bengals": "#FB4F14",
+    "Cleveland Browns": "#311D00",
+    "Dallas Cowboys": "#003594",
+    "Denver Broncos": "#FB4F14",
+    "Detroit Lions": "#0076B6",
+    "Green Bay Packers": "#203731",
+    "Houston Texans": "#03202F",
+    "Indianapolis Colts": "#002C5F",
+    "Jacksonville Jaguars": "#006778",
+    "Kansas City Chiefs": "#E31837",
+    "Las Vegas Raiders": "#000000",
+    "Los Angeles Chargers": "#0080C6",
+    "Los Angeles Rams": "#003594",
+    "Miami Dolphins": "#008E97",
+    "Minnesota Vikings": "#4F2683",
+    "New England Patriots": "#002244",
+    "New Orleans Saints": "#D3BC8D",
+    "New York Giants": "#0B2265",
+    "New York Jets": "#125740",
+    "Philadelphia Eagles": "#004C54",
+    "Pittsburgh Steelers": "#FFB612",
+    "San Francisco 49ers": "#AA0000",
+    "Seattle Seahawks": "#002244",
+    "Tampa Bay Buccaneers": "#D50A0A",
+    "Tennessee Titans": "#0C2340",
+    "Washington Commanders": "#5A1414"
+  }
+}

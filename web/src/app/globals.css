@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+}
+
+/* ── CSS Variables ── */
+:root {
+  --bg: #0a0e17;
+  --bg-surface: #111827;
+  --bg-card: #161d2e;
+  --bg-card-hover: #1e2740;
+  --border: #1e2737;
+  --border-light: #2a3548;
+  --text: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --text-dim: #64748b;
+  --accent: #3b82f6;
+  --accent-light: #60a5fa;
+}
+
+/* ── SVG Styles ── */
+
+/* Layer Bands */
+.layer-band {
+  fill: transparent;
+}
+.layer-band.even {
+  fill: rgba(255, 255, 255, 0.018);
+}
+.layer-band.odd {
+  fill: rgba(255, 255, 255, 0.006);
+}
+.layer-label {
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  fill: rgba(255, 255, 255, 0.1);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Edges */
+.edge-path {
+  fill: none;
+  stroke: #334155;
+  stroke-width: 1.5px;
+  opacity: 0.3;
+  transition: opacity 0.3s ease, stroke 0.3s ease, stroke-width 0.3s ease;
+}
+.edge-path.highlighted {
+  stroke: var(--accent-light);
+  stroke-width: 2px;
+  opacity: 0.75;
+}
+.edge-path.dimmed {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.edge-path.click-path {
+  stroke: #f59e0b;
+  stroke-width: 3px;
+  opacity: 0.9;
+}
+.edge-path.edge-hover {
+  stroke: #93c5fd;
+  stroke-width: 2.5px;
+  opacity: 0.85;
+}
+.edge-overlay {
+  fill: none;
+  stroke: transparent;
+  stroke-width: 14px;
+  cursor: pointer;
+}
+
+/* Nodes */
+.node-card {
+  fill: var(--bg-card);
+  stroke: var(--border-light);
+  stroke-width: 1px;
+  filter: url(#card-shadow);
+  cursor: pointer;
+  transition: fill 0.2s ease, stroke 0.2s ease;
+}
+.node-group:hover .node-card {
+  fill: var(--bg-card-hover);
+  stroke: #3b4f6e;
+}
+.node-group.hc .node-card {
+  fill: #171f30;
+}
+.node-group.hc:hover .node-card {
+  fill: #1e2840;
+}
+.node-group.highlighted .node-card {
+  stroke: var(--accent-light);
+  stroke-width: 1.5px;
+  filter: url(#glow);
+}
+.node-group.dimmed {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.node-group:not(.dimmed) {
+  transition: opacity 0.3s ease;
+}
+
+/* Node Text */
+.node-name {
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
+  font-size: 10.5px;
+  font-weight: 600;
+  fill: var(--text);
+  pointer-events: none;
+}
+.node-subtitle {
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
+  font-size: 8.5px;
+  font-weight: 400;
+  fill: var(--text-secondary);
+  pointer-events: none;
+}
+.node-accent {
+  pointer-events: none;
+}
+
+/* Tooltip */
+.tooltip {
+  position: fixed;
+  padding: 10px 14px;
+  background: rgba(14, 20, 33, 0.95);
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  font-size: 0.78rem;
+  color: var(--text);
+  pointer-events: none;
+  z-index: 100;
+  max-width: 320px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+}
+.tooltip .tip-title {
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+.tooltip .tip-detail {
+  color: var(--text-secondary);
+  font-size: 0.72rem;
+  line-height: 1.4;
+}
