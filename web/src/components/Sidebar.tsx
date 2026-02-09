@@ -1,7 +1,7 @@
 "use client";
 
-import { useRef } from "react";
-import { motion, AnimatePresence, PanInfo } from "framer-motion";
+import { useMemo, useRef } from "react";
+import { motion, AnimatePresence, PanInfo, useDragControls } from "framer-motion";
 import { CoachNode, Connection, ProcessedData } from "@/lib/types";
 import { ordinal } from "@/lib/graph";
 
@@ -25,19 +25,21 @@ export default function Sidebar({
   onClose,
 }: Props) {
   const dragRef = useRef<HTMLDivElement>(null);
+  const dragControls = useDragControls();
 
   // BUG FIX: Use data.edges (coaching_tree only), NOT data.allEdges
-  const connections = selectedCoach
-    ? data.edges.filter(
-        (e) => e.source === selectedCoach.id || e.target === selectedCoach.id
-      )
-    : [];
+  const connections = useMemo(() => {
+    if (!selectedCoach) return [];
+    return data.edges.filter(
+      (e) => e.source === selectedCoach.id || e.target === selectedCoach.id
+    );
+  }, [data.edges, selectedCoach]);
 
   const statsText = `${data.nodes.length} coaches \u00B7 ${data.edges.length} connections`;
 
   const sidebarContent = (
     <>
-      <div className="flex-1 overflow-y-auto p-5 max-md:p-3 max-md:pt-1">
+      <div className="flex-1 overflow-y-auto sidebar-scroll p-5 max-md:p-3 max-md:pt-1">
         {selectedCoach ? (
           <div className="relative">
             <button
@@ -156,6 +158,8 @@ export default function Sidebar({
             exit={{ y: "100%" }}
             transition={{ type: "spring", damping: 25, stiffness: 300 }}
             drag="y"
+            dragListener={false}
+            dragControls={dragControls}
             dragConstraints={{ top: 0 }}
             dragElastic={0.2}
             onDragEnd={(_: unknown, info: PanInfo) => {
@@ -166,7 +170,10 @@ export default function Sidebar({
             className="absolute bottom-0 left-0 right-0 max-h-[55vh] bg-[#111827] border-t border-[#1e2737] rounded-t-[14px] shadow-[0_-4px_24px_rgba(0,0,0,0.5)] z-50 flex flex-col"
           >
             {/* Drag handle */}
-            <div className="flex justify-center pt-2.5 pb-1">
+            <div
+              className="flex justify-center pt-2.5 pb-1 sidebar-drag-handle"
+              onPointerDown={(event) => dragControls.start(event)}
+            >
               <div className="w-9 h-1 bg-[#2a3548] rounded-full" />
             </div>
             {sidebarContent}
